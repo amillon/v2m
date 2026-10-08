@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T18:45:00+02:00",
+  "title": "Design System: V2M Secrétaire",
+  "extensions": {
+    "colorMeta": {
+      "slate": { "role": "neutral", "displayName": "Slate", "canonical": "#1e2824", "tonalRamp": ["oklch(15% 0.015 160)", "oklch(25% 0.015 160)", "oklch(35% 0.015 160)", "oklch(45% 0.015 160)", "oklch(57% 0.015 160)", "oklch(69% 0.015 160)", "oklch(82% 0.015 160)", "oklch(95% 0.015 160)"] },
+      "slate-raised": { "role": "neutral", "displayName": "Raised Slate", "canonical": "#2a3732", "tonalRamp": ["oklch(15% 0.018 160)", "oklch(25% 0.018 160)", "oklch(35% 0.018 160)", "oklch(45% 0.018 160)", "oklch(57% 0.018 160)", "oklch(69% 0.018 160)", "oklch(82% 0.018 160)", "oklch(95% 0.018 160)"] },
+      "chalk": { "role": "neutral", "displayName": "Chalk", "canonical": "#f2f4ef", "tonalRamp": ["oklch(15% 0.008 125)", "oklch(25% 0.008 125)", "oklch(35% 0.008 125)", "oklch(45% 0.008 125)", "oklch(57% 0.008 125)", "oklch(69% 0.008 125)", "oklch(82% 0.008 125)", "oklch(96% 0.008 125)"] },
+      "chalk-dim": { "role": "neutral", "displayName": "Dimmed Chalk", "canonical": "#c9d1cb", "tonalRamp": ["oklch(15% 0.012 155)", "oklch(25% 0.012 155)", "oklch(35% 0.012 155)", "oklch(45% 0.012 155)", "oklch(57% 0.012 155)", "oklch(69% 0.012 155)", "oklch(84% 0.012 155)", "oklch(95% 0.012 155)"] },
+      "sunflower": { "role": "secondary", "displayName": "Sunflower Yellow", "canonical": "#ffd21f", "tonalRamp": ["oklch(15% 0.04 92)", "oklch(25% 0.07 92)", "oklch(35% 0.09 92)", "oklch(48% 0.12 92)", "oklch(62% 0.15 92)", "oklch(75% 0.17 92)", "oklch(88% 0.18 92)", "oklch(95% 0.09 92)"] },
+      "fluoro-pink": { "role": "primary", "displayName": "Fluoro Pink", "canonical": "#ff3d9a", "tonalRamp": ["oklch(15% 0.06 355)", "oklch(25% 0.1 355)", "oklch(35% 0.14 355)", "oklch(48% 0.19 355)", "oklch(60% 0.23 355)", "oklch(67% 0.24 355)", "oklch(82% 0.13 355)", "oklch(95% 0.04 355)"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(45% 0 0)", "oklch(57% 0 0)", "oklch(69% 0 0)", "oklch(82% 0 0)", "oklch(100% 0 0)"] },
+      "ink-dim-on-sunflower": { "role": "neutral", "displayName": "Dim Ink on Sunflower", "canonical": "#3a3a1c" },
+      "ink-dim-on-pink": { "role": "neutral", "displayName": "Dim Ink on Pink", "canonical": "#3a1a2a" },
+      "ink-dim-on-paper": { "role": "neutral", "displayName": "Dim Ink on Paper", "canonical": "#46544e" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero title only; uppercase, Archivo at font-stretch 78%." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles; uppercase, font-stretch 78%." },
+      "title": { "displayName": "Title", "purpose": "Menu-row item names, services and Beacons rows; uppercase, font-stretch 80-85%." },
+      "chalk": { "displayName": "Chalk", "purpose": "Short handwritten annotations: prices, steps, names, notes, menu subheads." },
+      "body": { "displayName": "Body", "purpose": "Running text, 46-58ch." },
+      "lede": { "displayName": "Lede", "purpose": "Intro sentence under a section title, 30-40ch." },
+      "label": { "displayName": "Label", "purpose": "Buttons and the header pill; uppercase, font-stretch 85%." }
+    },
+    "shadows": [
+      { "name": "pinned-photo", "value": "0 22px 34px -14px rgb(0 0 0 / 0.65), 0 4px 8px rgb(0 0 0 / 0.25)", "purpose": "White-matted photos pinned on slate." },
+      { "name": "pin-head", "value": "0 3px 5px rgb(0 0 0 / 0.4)", "purpose": "Pink pin head on a photo." },
+      { "name": "paper-slip", "value": "0 16px 26px -16px rgb(30 40 36 / 0.55)", "purpose": "White slips on the yellow ground." },
+      { "name": "slate-on-pink", "value": "0 18px 28px -14px rgb(30 10 20 / 0.55)", "purpose": "Testimonial slates on the pink ground." },
+      { "name": "play-badge", "value": "0 8px 18px rgb(0 0 0 / 0.4)", "purpose": "Yellow play badge over a photo." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "All transitions and the chalk-in reveal." },
+      { "name": "chalk-in", "value": "1s clip-path wipe + blur 2px→0, staggered 0.28s per line, once on load", "purpose": "Hero title and date lines written in; final state under reduced motion." },
+      { "name": "leader-fill", "value": "transform scaleX 0→1, 0.6s", "purpose": "Pink bar wiping across a menu leader on hover/focus." },
+      { "name": "control-state", "value": "0.2s background-color, color, transform", "purpose": "Button and pill hover/active." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "lg", "value": "960px" },
+      { "name": "xl", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Pink Button",
+      "kind": "button",
+      "refersTo": "button-pink",
+      "description": "Primary action on slate grounds.",
+      "html": "<a class=\"ds-btn ds-btn-pink\" href=\"#\">Je réserve ma place</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; border-radius: 8px; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.16,1,0.3,1), color 0.2s cubic-bezier(0.16,1,0.3,1), transform 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid #ffd21f; outline-offset: 3px; } .ds-btn-pink { background: #ff3d9a; color: #1e2824; } .ds-btn-pink:hover { background: #ffd21f; }"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary action on light grounds (yellow, paper).",
+      "html": "<div style=\"background:#ffd21f;padding:24px\"><a class=\"ds-btn-ink\" href=\"#\">Voir le programme</a></div>",
+      "css": ".ds-btn-ink { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; border-radius: 8px; background: #1e2824; color: #f2f4ef; transition: background-color 0.2s, color 0.2s, transform 0.2s; } .ds-btn-ink:hover { background: #ff3d9a; color: #1e2824; } .ds-btn-ink:active { transform: translateY(1px); } .ds-btn-ink:focus-visible { outline: 3px solid #1e2824; outline-offset: 3px; }"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action on the yellow ground.",
+      "html": "<div style=\"background:#ffd21f;padding:24px\"><a class=\"ds-btn-line\" href=\"#\">Réserver un appel découverte</a></div>",
+      "css": ".ds-btn-line { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid #1e2824; border-radius: 8px; background: transparent; color: #1e2824; transition: background-color 0.2s, color 0.2s; } .ds-btn-line:hover { background: #1e2824; color: #ffd21f; } .ds-btn-line:focus-visible { outline: 3px solid #1e2824; outline-offset: 3px; }"
+    },
+    {
+      "name": "Chalk Link",
+      "kind": "custom",
+      "refersTo": "chalk-link",
+      "description": "Handwritten secondary link with a hand-drawn chalk underline, on slate.",
+      "html": "<div style=\"background:#1e2824;padding:24px\"><a class=\"ds-chalk-link\" href=\"#\">C'est quoi ?</a></div>",
+      "css": ".ds-chalk-link { display: inline-block; padding: 6px 2px 14px; font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.5rem; text-decoration: none; color: #f2f4ef; background: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6 C20 2 34 9 56 5 S96 3 118 6' fill='none' stroke='%23f2f4ef' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E\") left bottom / 100% 10px no-repeat; } .ds-chalk-link:hover { color: #ffd21f; } .ds-chalk-link:focus-visible { outline: 3px solid #ffd21f; outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Menu Row",
+      "kind": "custom",
+      "refersTo": "menu-row",
+      "description": "Signature list item: item, dotted leader, right-aligned price; leader fills pink on hover/focus.",
+      "html": "<ul class=\"ds-menu\"><li class=\"ds-row\" tabindex=\"0\"><span>Petit déjeuner</span><i class=\"ds-lead\"></i><b>fait maison</b></li><li class=\"ds-row\" tabindex=\"0\"><span>Réseautage</span><i class=\"ds-lead\"></i><b>en douceur</b></li></ul>",
+      "css": ".ds-menu { list-style: none; margin: 0; padding: 24px; background: #1e2824; color: #f2f4ef; font-family: 'Hanken Grotesk', system-ui, sans-serif; } .ds-row { display: grid; grid-template-columns: minmax(0, auto) minmax(24px, 1fr) auto; align-items: baseline; column-gap: 10px; padding: 7px 0; font-size: 1.15rem; font-weight: 600; outline: none; } .ds-lead { position: relative; height: 6px; translate: 0 -0.2em; background: radial-gradient(circle, currentColor 1.6px, transparent 2.1px) left center / 10px 6px repeat-x; } .ds-lead::after { content: ''; position: absolute; inset: 0; background: #ff3d9a; border-radius: 6px; transform: scaleX(0); transform-origin: left; transition: transform 0.6s cubic-bezier(0.16,1,0.3,1); } .ds-row:hover .ds-lead::after, .ds-row:focus-visible .ds-lead::after { transform: scaleX(1); } .ds-row b { font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.3rem; color: #ffd21f; text-align: right; } .ds-row:hover b, .ds-row:focus-visible b { color: #ff3d9a; }"
+    },
+    {
+      "name": "Pinned Photo",
+      "kind": "card",
+      "refersTo": "pinned-photo",
+      "description": "Real photo with white mat, pink pin head, slight tilt and soft drop shadow.",
+      "html": "<div style=\"background:#1e2824;padding:40px\"><figure class=\"ds-pin\"><div class=\"ds-pin-img\"></div></figure></div>",
+      "css": ".ds-pin { position: relative; margin: 0; width: 220px; background: #ffffff; padding: 8px; rotate: -3deg; box-shadow: 0 22px 34px -14px rgb(0 0 0 / 0.65), 0 4px 8px rgb(0 0 0 / 0.25); } .ds-pin::before { content: ''; position: absolute; top: -9px; left: 50%; width: 18px; height: 18px; margin-left: -9px; border-radius: 50%; background: #ff3d9a; box-shadow: 0 3px 5px rgb(0 0 0 / 0.4); z-index: 2; } .ds-pin-img { aspect-ratio: 3 / 4; background: #c9d1cb; }"
+    },
+    {
+      "name": "Testimonial Slate",
+      "kind": "card",
+      "refersTo": "testimonial-slate",
+      "description": "Small slate on the pink ground: chalk quote, yellow handwritten name.",
+      "html": "<div style=\"background:#ff3d9a;padding:32px\"><figure class=\"ds-slate\"><blockquote><p>« J'ai compris pourquoi ça ne fonctionnait pas. »</p></blockquote><figcaption>Marion, fondatrice e-shop thé et café</figcaption></figure></div>",
+      "css": ".ds-slate { margin: 0; max-width: 420px; background: #1e2824; color: #f2f4ef; padding: 24px 22px 22px; rotate: -0.6deg; box-shadow: 0 18px 28px -14px rgb(30 10 20 / 0.55); font-family: 'Hanken Grotesk', system-ui, sans-serif; } .ds-slate blockquote { margin: 0; } .ds-slate p { margin: 0; font-size: 1.15rem; line-height: 1.5; } .ds-slate figcaption { margin-top: 14px; font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.4rem; line-height: 1.15; color: #ffd21f; }"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky slate top bar: brand, plain links hovering yellow with pink underline, pink pill CTA.",
+      "html": "<header class=\"ds-top\"><span class=\"ds-brand\">V2M Secrétaire</span><nav class=\"ds-nav\"><a href=\"#\">Le Petit Dej</a><a href=\"#\">Instagram</a><a href=\"#\">Avis</a></nav><a class=\"ds-pill\" href=\"#\">Appel découverte</a></header>",
+      "css": ".ds-top { display: flex; align-items: center; gap: 28px; min-height: 64px; padding: 0 32px; background: #1e2824; color: #f2f4ef; border-bottom: 1px solid rgb(242 244 239 / 0.14); } .ds-brand { font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 900; font-stretch: 80%; font-size: 1.25rem; text-transform: uppercase; } .ds-nav { display: flex; gap: 22px; margin-left: auto; } .ds-nav a { color: inherit; text-decoration: none; padding: 6px 0; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.02em; text-underline-offset: 6px; } .ds-nav a:hover { color: #ffd21f; text-decoration: underline; text-decoration-color: #ff3d9a; text-decoration-thickness: 3px; } .ds-nav a:focus-visible, .ds-pill:focus-visible { outline: 3px solid #ffd21f; outline-offset: 3px; } .ds-pill { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; background: #ff3d9a; color: #1e2824; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 0.85rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; } .ds-pill:hover { background: #ffd21f; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "L'Ardoise du Jour",
+    "overview": "The site is a neighbourhood café's chalkboard. A green-black slate is the default ground, set type sits on it in chalk white, and a hand-drawn script appears only where someone would chalk a note: a price, a step number, a name under a quote, an underline under a link. Two spot inks, sunflower yellow and fluoro pink, never sprinkle. Each one takes over a whole band of the page. The offer menu sits on a full yellow field and the reviews sit on a full pink field.\n\nMenu grammar organises all content. Lists are menu rows: the item on the left, a dotted leader in the middle, and the \"price\" on the right (a week number, a step, a short benefit). On hover or focus the leader fills pink. Physical objects pinned to the wall add depth: white-bordered photos held by a pink pin head and tilted a few degrees, paper slips, a round stamp, and small slates propped at an angle. Density is generous on phone and opens into asymmetric 7/5 and 5/7 splits on desktop.\n\nMotion is limited to the board being written once. The hero title and the date lines wipe in as chalk on load, and the leaders fill on interaction. With reduced motion, the final state shows immediately.",
+    "keyCharacteristics": [
+      "Slate ground with chalk type, and two spot inks that each own a whole region",
+      "Bold condensed uppercase grotesque for display, with one handwritten face reserved for short annotations",
+      "Menu rows with dotted leaders and right-aligned \"prices\" carry all list content",
+      "Pinned, slightly rotated paper objects with soft drop shadows",
+      "One chalk-in reveal on load, and leaders that fill pink on hover/focus"
+    ],
+    "rules": [
+      { "name": "The Whole-Region Rule", "body": "A spot ink is either a full-bleed ground for a band or a small accent on slate. It never appears as a tinted panel or a scattered patch on another ink.", "section": "colors" },
+      { "name": "The Ink-on-Ink Rule", "body": "On yellow and paper grounds, hover states that turn pink on slate turn slate instead. Pink text never sits on yellow. The one place inks cross is the pink stamp, which overprints with `mix-blend-mode: multiply`.", "section": "colors" },
+      { "name": "The Ground Variables Rule", "body": "Every band sets `--bg`, `--fg`, `--fg-dim` and `--focus`. Components read those variables and do not hard-code text colour. The focus ring is yellow on slate and slate on every light ground.", "section": "colors" },
+      { "name": "The Short Chalk Rule", "body": "The handwritten face never sets a paragraph. It is limited to six words or so: a price, a name, a step, a note.", "section": "typography" },
+      { "name": "The Narrow Uppercase Rule", "body": "Display and labels always use condensed width (78–85%) and uppercase. Width is set with `font-stretch`, never by faking letter-spacing.", "section": "typography" },
+      { "name": "The Pinned-Only Rule", "body": "Only a physical object (a photo, slip, slate or play badge) casts a shadow. Controls and bands stay flat.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do give each band one ground (slate, sunflower, pink or paper) and let components read the ground variables.",
+      "Do write every list as a menu row with a dotted leader and a right-aligned price.",
+      "Do keep the handwritten face to short annotations (1.25–1.6rem).",
+      "Do pin real photos with a white mat, pink pin head, tilt of 3.5° or less and the pinned shadow.",
+      "Do show missing content as a visibly marked placeholder (dashed yellow fill line, \"à compléter\" pill, dashed video slot).",
+      "Do show the final state with no animation under `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "Don't use tints or opacity washes of yellow or pink. Chalk at reduced alpha on slate is the only translucent ink.",
+      "Don't set pink text on a yellow ground. Hover accents switch to slate there.",
+      "Don't put shadows on buttons, bands or the header.",
+      "Don't set paragraphs or headlines in the handwritten face.",
+      "Don't lay offers out as a row of equal centred cards. They are courses on a menu."
+    ]
+  }
+}

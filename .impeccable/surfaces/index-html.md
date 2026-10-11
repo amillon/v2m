@@ -8,23 +8,25 @@ related_targets: []
 # Surface: Homepage (index.html)
 
 Mode: Persuade. Audience: women entrepreneurs around Bordeaux arriving from Instagram, mostly on phone. Primary action: register for the next Petit Dej (Billetweb). Secondary: book the Instagram coaching / discovery call (Calendly), Offre Reels, Beacons.
-Proof: real Petit Dej photos, three real testimonials (Marion, Aline, Juliette), video testimonial slots = placeholders. Constraints: no Community Manager offer; next Petit Dej details are placeholders clearly marked.
+
+Proof: real Petit Dej photos, three real testimonials (Marion, Aline, Juliette), video testimonial slots = placeholders. Constraints: no Community Manager offer; next Petit Dej details are placeholders clearly marked. Must stay distinct from V2 (sober Poppins on blush) and V3 (Instagram codes on blush).
 
 ## Direction contract
 
-THESIS: The homepage is the morning café's board: this month's Petit Dej is the "plat du jour" written on the slate, the offers are the carte. Refuses the pastel coach template (centered script headline over three equal service cards).
+THESIS: "Franc-Parler": the homepage talks like a confident consultant's poster, not a café board. Big uppercase statements, whole colour blocks, one highlighted word per claim. Refuses the pastel coach template (script headline, blush everywhere, three equal soft cards) and the previous chalk/Polaroid/leader vocabulary. Direction pinned by the client (reference comcassie.fr); concept roll not run.
 
-OWN-WORLD: Slate green-black ground (#1E2824 family) with chalk-white set type and hand-drawn chalk underlines/arrows only as accents; two spot inks — fluoro pink and sunflower yellow — that own whole regions (the carte sits on a full yellow field, testimonials on full pink), overprinting with multiply where they cross. Menu grammar everywhere: dotted leaders, prices right-aligned, "Au menu", "Plat du jour", "Suggestion de la cheffe". Bold uppercase grotesque display; one chalk script face only for short annotations.
+OWN-WORLD: Bordeaux (#5c1f2e, the logo's vieux rose deepened) is the dominant field; blush is the light field; caramel is the highlighter marker and the accent ink on bordeaux; sage owns the reviews band only; violet is action only (violet button on light grounds, white button with violet label on bordeaux). Bricolage Grotesque 800 uppercase display, Hanken Grotesk body. Rounded 28px panels, square-ish 6px buttons, uppercase labels, a tone-on-tone filled ghost word behind the hero, a marquee band of true facts, strikethrough-then-replace headline.
 
-STORY: In 3 seconds: "there is a women entrepreneurs' breakfast on <date>, I can sign up here". Then: Valérie also makes you autonomous on Instagram in 4 weeks (545 €), shoots your Reels, and handles your admin. Real women vouch. Everything else is on Beacons.
+STORY: 3 seconds: "next Petit Dej, date, register". Then: we stop entrepreneuring alone; Instagram autonomy in 4 weeks (545 €); Reels done for you; admin by a 20-year accounting secretary; real women vouch; everything else on Beacons.
 
-FIRST VIEWPORT: Desktop: slate field full-bleed. Left 7/12: kicker "Au menu ce mois-ci ✨☕️", huge uppercase "PETIT DEJ ENTR'FEMMES", the date line + place as chalk-written plat du jour, theme, then primary pink button "Je réserve ma place" (Billetweb) + secondary chalk link "C'est quoi ?". Right 5/12: two real photos (room + breakfast table) pinned slightly rotated as on a café wall, with a play-badge slot for a recap video. Thin top bar: logo, Instagram · Reels · Services · Avis, CTA pill "Appel découverte". Mobile: title, date, CTA above the fold; photos below.
+FIRST VIEWPORT: Top bar in bordeaux announcing the next Petit Dej with a register link. Header on blush: logo, nav, violet "Appel découverte". Ghost word ENTR'FEMMES (filled, blush-ghost) behind a full-width bordeaux panel: left, huge "PETIT DEJ ENTR'FEMMES" (second line caramel), a three-cell date ticket (date / lieu / thème, placeholders chipped "à compléter"), white "Je réserve ma place" + "C'est quoi ?". Right, the room photo filling the panel with the "vidéo récap à venir" badge. Mobile: bar, title, ticket, CTA above the fold, photo below.
 
-FORM: Chalkboard café menu ("ardoise du jour"), position 3 of the grounded list; seed key 6503335b. Raises — from risograph-web-system: two spot inks at total commitment with multiply overprint, no tints. From sd-seedbed-lobes: one colour owns each whole region, never scattered accents. Signature interaction: the slate's date/title is chalk-written in once on load (stroke/reveal), and menu leaders fill in pink on hover/focus; reduced-motion shows the final state.
+FORM: Consultant poster / colour-block manifesto. Seed: none, direction pinned by the client ("refaire V1 dans une nouvelle direction, inspirée de comcassie.fr, en gardant la palette de la marque"), concept roll waived. Signature interaction: the highlighter marker sweeps under the key word of each section heading as it enters the viewport (once), and the facts marquee scrolls (pause/play button); reduced motion shows final states and a static wrapped band.
 
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+FINISH: code-led build; ends with detector run, finish review, DESIGN.md and design.json rewritten from the build.
 
 ## Unresolved
+
 - Next Petit Dej date / place / theme / visual (placeholders).
 - Instagram video testimonial URLs (placeholders).
 - Admin services list ("INPI, changement d'adresse, ajout d'activité…" announced by client, to be detailed).

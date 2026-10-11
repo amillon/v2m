@@ -1,263 +1,300 @@
 ---
 name: V2M Secrétaire
-description: The morning café's menu board for a Bordeaux secretary, Instagram coach and breakfast host, inked in the logo's blush, terracotta and caramel.
+description: A confident consultant's poster for a Bordeaux secretary, Instagram coach and breakfast host, set in uppercase statements on whole bordeaux, blush and caramel colour blocks.
 colors:
+  bordeaux: "#5c1f2e"
+  ink-dim: "#c7b6b4"
   blush: "#f2dcd9"
+  blush-dim: "#d9b3ab"
+  blush-ghost: "#e9c8c2"
+  caramel: "#caa98a"
   rose: "#b78a7d"
   rose-text: "#7a5045"
-  caramel: "#caa98a"
   violet: "#8300e9"
   violet-dark: "#6a00bd"
-  violet-light: "#c9a2ff"
   sage: "#abb9a4"
   ink: "#48464b"
   ink-strong: "#2f2d32"
-  ink-raised: "#3d3a41"
-  ink-deep: "#1f1c22"
-  paper: "#ffffff"
-  blush-dim: "#c7b6b4"
-  caramel-ink: "#4a3a30"
-  sage-ink: "#3d3b40"
+  white: "#ffffff"
 typography:
   display:
-    fontFamily: "Archivo, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.9rem, 14.4vw, 6rem)"
-    fontWeight: 900
-    lineHeight: 0.95
-    letterSpacing: "-0.01em"
-    fontVariation: "'wdth' 78"
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "clamp(2.6rem, 10.6vw, 6rem)"
+    fontWeight: 800
+    lineHeight: 0.88
+    letterSpacing: "-0.02em"
+    fontVariation: "'opsz' 96"
   headline:
-    fontFamily: "Archivo, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.1rem, 9vw, 4rem)"
-    fontWeight: 900
-    lineHeight: 0.95
-    letterSpacing: "-0.01em"
-    fontVariation: "'wdth' 78"
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "clamp(2.25rem, 8.6vw, 4.6rem)"
+    fontWeight: 800
+    lineHeight: 0.92
+    letterSpacing: "-0.02em"
+    fontVariation: "'opsz' 96"
   title:
-    fontFamily: "Archivo, Arial Narrow, sans-serif"
-    fontSize: "1.45rem"
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "1.5rem"
+    fontWeight: 800
+    lineHeight: 1
+    letterSpacing: "-0.01em"
+  statement:
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "1.15rem"
     fontWeight: 800
     lineHeight: 1.1
-    fontVariation: "'wdth' 82"
-  chalk:
-    fontFamily: "Patrick Hand, system-ui, sans-serif"
-    fontSize: "1.3rem"
-    fontWeight: 700
-    lineHeight: 1.1
-  body:
-    fontFamily: "Hanken Grotesk, system-ui, sans-serif"
-    fontSize: "1.0625rem"
-    fontWeight: 400
-    lineHeight: 1.55
+  numeral:
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "clamp(4rem, 17vw, 6rem)"
+    fontWeight: 800
+    lineHeight: 0.85
+    letterSpacing: "-0.04em"
   lede:
-    fontFamily: "Hanken Grotesk, system-ui, sans-serif"
-    fontSize: "1.25rem"
+    fontFamily: "Hanken Grotesk, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontSize: "clamp(1.15rem, 2.4vw, 1.35rem)"
     fontWeight: 400
     lineHeight: 1.45
+  body:
+    fontFamily: "Hanken Grotesk, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontSize: "1.0625rem"
+    fontWeight: 400
+    lineHeight: 1.6
+  button:
+    fontFamily: "Bricolage Grotesque, Arial Narrow, system-ui, sans-serif"
+    fontSize: "0.95rem"
+    fontWeight: 700
+    lineHeight: 1.15
+    letterSpacing: "0.05em"
   label:
-    fontFamily: "Archivo, Arial Narrow, sans-serif"
-    fontSize: "1.1rem"
-    fontWeight: 800
-    letterSpacing: "0.02em"
-    fontVariation: "'wdth' 85"
+    fontFamily: "Hanken Grotesk, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontSize: "0.72rem"
+    fontWeight: 700
+    letterSpacing: "0.14em"
 rounded:
-  label: "4px"
-  slot: "6px"
-  control: "8px"
-  card: "28px"
+  control: "6px"
+  tile: "16px"
+  card: "20px"
+  panel: "28px"
   pill: "999px"
 spacing:
   gutter-sm: "16px"
   gutter-md: "24px"
   gutter-lg: "32px"
-  section-sm: "64px"
-  section-lg: "104px"
-  container: "1200px"
+  section-sm: "72px"
+  section-lg: "112px"
+  container: "1240px"
 components:
   button-primary:
     backgroundColor: "{colors.violet}"
-    textColor: "{colors.paper}"
-    typography: "{typography.label}"
+    textColor: "{colors.white}"
+    typography: "{typography.button}"
     rounded: "{rounded.control}"
     padding: "0 26px"
     height: "52px"
   button-primary-hover:
     backgroundColor: "{colors.violet-dark}"
-  button-primary-on-ink:
-    backgroundColor: "{colors.violet-light}"
-    textColor: "{colors.ink-strong}"
-  button-primary-on-ink-hover:
+    textColor: "{colors.white}"
+  button-light:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.violet}"
+    typography: "{typography.button}"
+    rounded: "{rounded.control}"
+    padding: "0 26px"
+    height: "52px"
+  button-light-hover:
     backgroundColor: "{colors.blush}"
-  button-ink:
-    backgroundColor: "{colors.ink-strong}"
+    textColor: "{colors.violet-dark}"
+  button-outline-on-bordeaux:
+    backgroundColor: "{colors.bordeaux}"
     textColor: "{colors.blush}"
-    typography: "{typography.label}"
+    typography: "{typography.button}"
     rounded: "{rounded.control}"
     padding: "0 26px"
     height: "52px"
-  button-ink-hover:
-    backgroundColor: "{colors.violet}"
-    textColor: "{colors.paper}"
-  button-line:
-    backgroundColor: "transparent"
+  button-outline-on-bordeaux-hover:
+    backgroundColor: "{colors.blush}"
+    textColor: "{colors.bordeaux}"
+  colour-panel:
+    backgroundColor: "{colors.bordeaux}"
+    textColor: "{colors.blush}"
+    rounded: "{rounded.panel}"
+  service-row:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.bordeaux}"
+    rounded: "{rounded.tile}"
+    padding: "18px 22px"
+  quote-card:
+    backgroundColor: "{colors.white}"
     textColor: "{colors.ink-strong}"
-    typography: "{typography.label}"
-    rounded: "{rounded.control}"
-    padding: "0 26px"
-    height: "52px"
-  button-line-hover:
-    backgroundColor: "{colors.ink-strong}"
+    rounded: "{rounded.card}"
+    padding: "26px 24px 24px"
+  quote-card-feature:
+    backgroundColor: "{colors.bordeaux}"
     textColor: "{colors.blush}"
-  pill-cta:
-    backgroundColor: "{colors.violet}"
-    textColor: "{colors.paper}"
+    rounded: "{rounded.card}"
+    padding: "44px 44px 40px"
+  placeholder-chip:
+    backgroundColor: "{colors.caramel}"
+    textColor: "{colors.bordeaux}"
     rounded: "{rounded.pill}"
-    padding: "0 16px"
-    height: "40px"
-  testimonial-slate:
-    backgroundColor: "{colors.ink-strong}"
-    textColor: "{colors.blush}"
-    padding: "24px 22px 22px"
-  paper-slip:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink-strong}"
-    padding: "18px 20px 20px"
+    padding: "3px 10px"
+  step-number:
+    backgroundColor: "{colors.bordeaux}"
+    textColor: "{colors.caramel}"
+    rounded: "{rounded.tile}"
+    size: "52px"
 ---
 
 # Design System: V2M Secrétaire
 
 ## Overview
 
-**Creative North Star: "L'Ardoise du Jour"**
+**Creative North Star: "Franc-Parler"**
 
-The site is still a neighbourhood café's menu board, but written in the brand's own inks rather than on black slate. The logo's blush frame is the default ground, set type sits on it in a warm plum-grey ink, and a hand-drawn script appears only where someone would chalk a note: a price, a step number, a name under a quote, an underline under a link. The logo's terracotta lettering inks the second hero line and the handwritten notes. Grounds never sprinkle: each band takes one colour from the logo or the live site (blush, caramel, ink, white, rose, sage) and owns it edge to edge. Violet, the live site's button colour, is spent on action only.
+The site speaks like a confident consultant's poster: short uppercase statements set big and tight, laid on whole blocks of colour rather than on soft cards. Bordeaux, the logo's vieux rose deepened, is the dominant field; blush is the light field; caramel is the highlighter that marks the one word each claim turns on. The page moves from block to block (blush, bordeaux, caramel band, white, blush, sage, white, caramel, white, ink) so each section reads as a new poster, not as a continuation of the last.
 
-Menu grammar organises all content. Lists are menu rows: the item on the left, a dotted leader in the middle, and the "price" on the right (a week number, a step, a short benefit). On hover or focus the leader fills with the band's hot colour (violet on light grounds). Physical objects pinned to the wall add depth: white-bordered photos held by a violet pin head and tilted a few degrees, paper slips, a round violet stamp, and small ink slates propped at an angle. Density is generous on phone and opens into asymmetric 7/5 and 5/7 splits on desktop.
+Density is low and loud. Headlines run at poster scale (up to 6rem) with line-height under 1, body copy stays in a calm humanist sans at reading size, and the gap between the two is the point: the statement shouts, the explanation talks. Colour does the structuring; there is almost no ornament beyond hairline rules, numbered tiles and the marker sweep.
 
-Motion is limited to the board being written once. The hero title and the date lines wipe in as chalk on load, and the leaders fill on interaction. With reduced motion, the final state shows immediately.
+The world refuses the pastel coach template (script headline, blush everywhere, three equal soft cards) and the earlier café-slate vocabulary (chalk handwriting, Polaroids, dotted price leaders). The direction was pinned by the client with comcassie.fr as a reference, not a template; the palette stays the brand's own.
 
 **Key Characteristics:**
-- Blush ground with plum-grey ink type; each band owns one brand colour edge to edge
-- Bold condensed uppercase grotesque for display, with one handwritten face reserved for short annotations
-- Menu rows with dotted leaders and right-aligned "prices" carry all list content
-- Pinned, slightly rotated paper objects with soft, ink-tinted drop shadows
-- Violet reserved for action: buttons, header pill, leader fill, pin heads, stamp, selection
+- Whole colour blocks per section; bordeaux is the dominant field, blush the light field.
+- Bricolage Grotesque 800 uppercase statements at poster scale, tight leading (0.88 to 0.92).
+- One highlighted word per heading: a caramel marker bar swept in once, or the word set in caramel ink on bordeaux.
+- Strikethrough-then-replace headlines (a struck word in rose text, the replacement highlighted).
+- Large rounded colour panels (28px) against near-square buttons (6px).
+- Violet is action only.
+- A tone-on-tone ghost word behind the hero and a scrolling band of true facts.
 
 ## Colors
 
-Measured from the logo (`assets/img/logo-v2m.jpg`) and v2m-secretaire.fr. All values are CSS custom properties on `:root`; no component hard-codes a hex.
+A warm brand palette pushed to contrast: deep bordeaux and soft blush carry the page in alternating blocks, caramel marks, violet acts.
 
 ### Primary
-- **Violet** (#8300e9): the action ink. Primary buttons and the header pill (white text, 6.68:1), pin heads, the stamp, leader fill on light grounds, text selection, the focus ring on blush and white. Hovers to **Violet Dark** (#6a00bd, 8.95:1 with white).
-- **Violet Light** (#c9a2ff): the action ink on the dark ink ground only (primary button with ink-strong text 6.55:1, row hover text).
+- **Bordeaux** (#5c1f2e): the dominant field. Hero panel, Instagram offer section, closing Beacons panel, featured testimonial, announcement bar, step-number tiles. On light grounds it is the heading colour and the colour of rules under statements. Pairs: blush on bordeaux 9.47, white 12.42, caramel 5.65.
+- **Ink Dim** (#c7b6b4): secondary text on the ink-strong footer (6.99:1).
 
 ### Secondary
-- **Rose / terracotta** (#b78a7d): the logo lettering. Used as a ground (the reviews band) and for borders, never as text on light grounds (2.31:1 on blush).
-- **Rose Text** (#7a5045): text-safe terracotta (5.23:1 on blush, 6.86:1 on white). Second hero title line, handwritten "prices" and notes, the dashed fill-in underline and the filled "à compléter" chip, the logo ring, the tagline's dotted rule.
-- **Caramel** (#caa98a): the logo's "2". Ground of the offer menu; on the ink ground it is the annotation colour (6.19:1) and the focus ring; also the play badges and testimonial names.
-- **Sage** (#abb9a4): ground of the Beacons band only.
+- **Caramel Marker** (#caa98a): the highlighter bar under key words, the accent ink for highlighted words, numerals, prices and labels on bordeaux (5.65) and ink-strong (6.19), the facts marquee band, the slogan band, placeholder chips, check discs. Also the focus colour on dark fields.
+- **Vieux Rose** (#b78a7d): the logo lettering. Ornament and borders only (logo ring, scrollbar thumb); never text.
+- **Rose Text** (#7a5045): the text-safe vieux rose. Struck words, service-row details, placeholder underlines, link underline accent on light grounds (5.23 on blush, 6.86 on white).
+
+### Tertiary
+- **Action Violet** (#8300e9): the brand's live-site CTA colour, used for action only. Primary button on light grounds (white on violet 6.68), label of the white button on bordeaux (6.68), nav hover on mobile, focus ring on light grounds, skip link.
+- **Violet Dark** (#6a00bd): hover state of violet actions (white on violet-dark 8.95; violet-dark on blush 6.82 for the light-button hover).
+- **Sage** (#abb9a4): owns the reviews band only (ink-strong 6.62, bordeaux 6.04 on sage).
 
 ### Neutral
-- **Blush** (#f2dcd9): the default ground (hero, about, header); text colour on the ink ground (10.38:1).
-- **Ink Strong** (#2f2d32): headings and body text on every light ground; the dark ground of the Reels band, the footer and the testimonial slates.
-- **Ink** (#48464b): secondary text on blush and white (7.11:1 / 9.32:1).
-- **Ink Raised** (#3d3a41): hover of the video slots. **Ink Deep** (#1f1c22): all text on the rose ground (5.57:1).
-- **Paper** (#ffffff): photo mats, paper slips, the services band and the contact card.
-- **Per-ground secondary inks**: Blush Dim #c7b6b4 on ink (6.99:1), Caramel Ink #4a3a30 on caramel (4.93:1), Sage Ink #3d3b40 on sage (5.38:1).
+- **Blush** (#f2dcd9): the light field (page ground, header, sticky bar), text on bordeaux and on ink-strong (10.38), the marker colour inside the caramel slogan band.
+- **Blush Dim** (#d9b3ab): secondary text on bordeaux (6.50): week descriptions, beacon list detail, featured-quote caption.
+- **Ghost Blush** (#e9c8c2): the filled ghost word behind the hero. Decorative and `aria-hidden`; never text.
+- **Ink Strong** (#2f2d32): body text on light grounds (10.38 on blush) and the footer field.
+- **Ink** (#48464b): secondary body text on white (9.32), quote captions.
+- **White** (#ffffff): the white fields (Reels, About, Beacons wrapper), service rows and quote cards, and the light button.
 
 ### Named Rules
-**The Whole-Region Rule.** A brand colour is either a full-bleed ground for a band or a small accent. It never appears as a tinted panel or a scattered patch on another colour.
+**The Violet Acts Rule.** Violet appears only on things you can press or focus: buttons, the mobile nav hover, focus rings. Never on a heading, a fill or a decoration. On bordeaux the action inverts to a white button with a violet label.
 
-**The Violet-Is-Action Rule.** Violet marks what can be done (buttons, pill, leader fill, focus) plus the two pinned objects that echo it (pin heads, stamp). It never sets running text on caramel or sage (below 4.5:1); hover text there switches to ink-strong.
+**The Ground Variable Rule.** Components never hard-code their colour; they read the ground variables (`--bg`, `--fg`, `--fg-dim`, `--head`, `--accent`, `--line`, `--focus`). A light ground maps them to blush / ink-strong / ink / bordeaux / rose-text / violet; a bordeaux field remaps them to bordeaux / blush / blush-dim / blush / caramel / caramel. A new section changes ground by remapping, not by restyling its children.
 
-**The Ground Variables Rule.** Every band sets `--bg`, `--fg`, `--fg-dim`, `--accent`, `--hot`, `--hot-fill` and `--focus`. Components read those variables and do not hard-code colour. Focus ring: violet on blush/white, caramel on ink, ink on caramel/sage, ink-deep on rose (all ≥ 3:1).
+**The Logo Rose Is Not Ink Rule.** Vieux rose (#b78a7d) fails as text on every light ground; use Rose Text (#7a5045) wherever the rose voice must be read.
 
 ## Typography
 
-**Display Font:** Archivo, variable width (with Arial Narrow fallback)
-**Body Font:** Hanken Grotesk (with system-ui)
-**Annotation Font:** Patrick Hand (with system-ui)
+**Display Font:** Bricolage Grotesque (variable 200 to 800, width 75 to 100%; fallback Arial Narrow, system-ui)
+**Body Font:** Hanken Grotesk (variable 400 to 700; fallback system-ui, Segoe UI)
 
-**Character:** a heavy, narrowed, uppercase grotesque does the shouting, as stencilled on a café board. A plain warm grotesque reads the details. The handwriting is the waiter's chalk and appears only in short runs.
+**Character:** a quirky, high-contrast grotesque at heavy weight and optical size 96 for statements, set uppercase and tight, against a clean humanist sans that keeps the explanations plain and warm.
 
 ### Hierarchy
-- **Display** (900, width 78%, clamp(2.9rem, 14.4vw, 6rem), 0.95): hero title only, uppercase.
-- **Headline** (900, width 78%, clamp(2.1rem, 9vw, 4rem), 0.95): section titles, uppercase. The offer quote reuses it at width 85% in sentence case.
-- **Title** (800, width 80–85%, 1.3–1.7rem): menu-row item names, service rows and Beacons rows, uppercase. Totals step up to 900.
-- **Chalk** (Patrick Hand, 1.25–1.6rem, 1.1): menu subheads ("En bonus", "Infos pratiques"), row prices, notes, testimonial names, link labels, field keys.
-- **Body** (400–600, 1.0625rem, 1.55): running text, max 46–58ch. Lede at 1.25rem, max 30–40ch.
-- **Label** (800, width 85%, 1.1rem, 0.02em, uppercase): buttons and the header pill (0.85rem).
+- **Display** (800, clamp(2.6rem, 10.6vw, 6rem), 0.88, uppercase, -0.02em): the hero title only; its second line in caramel.
+- **Headline** (800, clamp(2.25rem, 8.6vw, 4.6rem), 0.92, uppercase, -0.02em, balanced wrap): every section heading, carrying the one highlighted word. The Instagram heading runs larger (up to 5.4rem), the slogan tagline up to 6rem, the Beacons heading smaller (up to 4rem).
+- **Title** (800, 1.5rem, 1, uppercase, -0.01em): sub-headings inside a section (bonus list, video row, footer contact enlarged to 2 to 3rem).
+- **Statement** (700 to 800, 1.15 to 1.9rem, 1 to 1.15, uppercase): short factual lines that act as content: fact grid, week titles, service-row names, Reels steps, marquee items, nav links on mobile (1.6rem).
+- **Numeral** (800, up to 6rem, 0.8 to 0.85, -0.04em, caramel): week numbers and the price.
+- **Lede** (400, clamp(1.15rem, 2.4vw, 1.35rem), 1.45, max 40ch): the sentence under each headline.
+- **Body** (400, 1.0625rem, 1.6, max 58ch): paragraphs, quotes (1.05rem, 1.55).
+- **Button** (Bricolage 700, 0.95rem, 0.05em tracking, uppercase): every button; 1rem at large size, 0.78rem at small.
+- **Label** (Hanken 700, 0.72 to 0.82rem, 0.08 to 0.14em, uppercase): definition-list terms (date / lieu / thème, durée / format / places), footer column heading, announcement bar, desktop nav links.
 
 ### Named Rules
-**The Short Chalk Rule.** The handwritten face never sets a paragraph. It is limited to six words or so: a price, a name, a step, a note.
+**The Statement Rule.** Anything that makes a claim is uppercase Bricolage 800 with leading at or under 1.1; anything that explains is sentence-case Hanken. Do not set explanation copy in the display face.
 
-**The Narrow Uppercase Rule.** Display and labels always use condensed width (78–85%) and uppercase. Width is set with `font-stretch`, never by faking letter-spacing.
+**The One Marked Word Rule.** Each headline carries at most one emphasised word: a caramel marker bar (0.32em tall at 88% of the line, swept in once on entry) on light and caramel grounds, or the word set in caramel ink on bordeaux. Inside the caramel slogan band the marker turns blush.
 
 ## Layout
 
-Mobile first, in one column. A 1200px container with gutters of 16px, then 24px from 640px, then 32px from 960px. Bands are full-bleed, with 64px vertical padding that grows to 104px at 960px. From 960px, content splits asymmetrically: hero 7fr/5fr, offer 7fr/4fr, Reels 6/6, services, about and contact 5fr/7fr. Testimonials use a 12-column grid, with one large slate spanning six columns and two rows beside two stacked slates. Menu rows use a three-track grid (item, flexible leader with a 24px minimum, price) aligned on the baseline. The header is sticky at 64px with a burger panel below 960px.
+Mobile first, single column, with the container capped at 1240px and gutters of 16 / 24 / 32px (at 640 / 960px). Section padding is 72px, rising to 112px from 960px. Desktop splits are asymmetric thirds: 7fr / 5fr for hero, concept, about, Beacons and testimonials; 5fr / 6fr or 5fr / 7fr when the text column leads a list. The services intro is sticky beside its rows. The Instagram weeks go 1, then 2 (640px), then 4 columns (1100px) separated by vertical hairlines.
+
+Sections are full-bleed colour blocks; panels (hero, Beacons) are inset within the container as rounded blocks on a contrasting ground. Hairline rules (1 to 1.5px, the ground's `--line` at 22 to 30% opacity) divide lists; heavier 3px bordeaux rules sit on top of fact statements. A short-laptop query (960px+, height up to 820px) compresses the hero so the CTA stays above the fold.
 
 ## Elevation & Depth
 
-Depth comes from physical objects pinned to the wall. Interface surfaces do not use it. Bands, buttons and the header are flat. Photos, paper slips and slates carry a soft, deep drop shadow, as if pinned to a board, and sit at small rotations (-3.5° to 3°).
+Flat. Depth comes from colour blocks and from panels inset on a contrasting field, not from shadows. The only shadow in the build is a soft drop under the floating photo badge in the hero, which lifts a pill over a photograph.
 
 ### Shadow Vocabulary
-- **Pinned photo** (`box-shadow: 0 22px 34px -14px rgb(47 45 50 / 0.5), 0 4px 8px rgb(47 45 50 / 0.18)`): white-bordered photos on blush (the Reels photo on ink keeps a black shadow at 0.7).
-- **Pin head** (`box-shadow: 0 3px 5px rgb(47 45 50 / 0.4)`): the 18px violet pin on a photo.
-- **Paper slip** (`box-shadow: 0 16px 26px -16px rgb(47 45 50 / 0.55)`): white slips on caramel.
-- **Slate on rose** (`box-shadow: 0 18px 28px -14px rgb(47 45 50 / 0.6)`): testimonial slates.
+- **Badge lift** (`box-shadow: 0 10px 24px -10px rgb(47 45 50 / 0.55)`): a pill label floating over a photograph. Nothing else.
 
 ### Named Rules
-**The Pinned-Only Rule.** Only a physical object (a photo, slip, slate or play badge) casts a shadow. Controls and bands stay flat.
+**The Block Not Shadow Rule.** Separate things by changing the ground colour or drawing a hairline, never by raising a card.
 
 ## Shapes
 
-Paper is square-cornered: photos, slips and slates have no radius. Controls are gently rounded (8px). The header CTA and the "à compléter" placeholder badges are full pills. The contact card is a rounded 28px "bonbon". Circles are reserved for pin heads, the logo, play badges and the stamp. Rotation belongs to the paper vocabulary: photos, slates, the stamp, notes and the contact card tilt between -3.5° and 9°. Hand-drawn SVG strokes (a wavy chalk underline, a curved arrow) are the only drawn ornaments.
+Two radii in tension: big soft corners on colour panels (28px) and photos and cards (20px), against near-square controls (6px). Mid-size tiles (16px) cover the date ticket, service rows, numbered step tiles and video slots. Pills (999px) are reserved for placeholder chips, photo captions and the hero badge. Circles mark the logo, check discs and play buttons. Placeholders and coming-soon items use a 2px dashed border (rose text or bordeaux) so unfinished content is visibly unfinished.
 
 ## Components
 
 ### Buttons
-- **Shape:** gently rounded (8px), 52px tall, 2px border slot. The large variant is 60px tall.
-- **Primary** (`.btn--primary`): violet with white text, hovers to violet dark. On the ink ground it switches to violet light with ink-strong text and hovers to blush.
-- **Ink:** ink-strong with blush text. Hovers to violet with white text. Used on caramel, white and sage grounds.
-- **Line:** transparent with an ink-strong border and text. Hovers to an ink-strong fill with blush text. Secondary action on caramel.
-- **Active:** moves down 1px. Transitions run 0.2s on the out-expo curve.
+Square-shouldered, uppercase, heavy: the poster's call to act.
+- **Shape:** near-square (6px), 2px border, minimum 52px tall (60px large, 40px small), inline-flex with 10px gap.
+- **Primary:** violet with white label, on blush and white grounds. Hover violet-dark.
+- **Light:** white with violet label, the action on bordeaux and ink fields. Hover blush with violet-dark label.
+- **Outline:** transparent with the ground's foreground as border and label; hover fills with the foreground and inverts the label. Used as the secondary action beside a light button.
+- **States:** 0.2s colour transitions on the expo-out ease; active nudges down 1px; focus is a 3px outline offset 3px in the ground's focus colour.
+- **Mobile:** buttons in CTA rows go full width under 640px.
 
-### Chalk Link
-Handwritten 1.5rem label with a hand-drawn wavy underline (SVG mask painted in `currentColor`). Hovers to the ground's hot colour. Used for the secondary action next to a primary button.
+### Chips
+- **Placeholder chip:** caramel pill, bordeaux label, Hanken 700 0.7rem uppercase tracked 0.08em. Marks content still to be supplied ("à compléter"), paired with a dashed rose-text underline on the placeholder text.
 
-### Menu Row (signature)
-Item, dotted leader (1.6px dots every 10px, in the current ink colour), and a right-aligned price. On hover or focus-within, a `--hot-fill` bar wipes across the leader (0.6s) and the price turns `--hot` (violet on blush/white, violet light on ink, ink-strong on caramel/sage). Variants: courses (uppercase item plus a dimmed description line), total (900-weight item and price above a 3px ink rule), linked rows (the whole row is the link).
-
-### Pinned Photo
-White 8px mat, square corners, a violet pin head centred on the top edge, a slight rotation and the pinned shadow.
-
-### Testimonial Slate
-Ink-strong panel on the rose ground, blush body text, name in caramel handwriting, rotated about ±0.5°.
-
-### Paper Slip
-White panel on caramel, a chalk-face subhead, rows divided by dotted ink hairlines.
+### Cards / Containers
+- **Colour panel:** bordeaux block with 28px corners and clipped overflow; holds hero text plus a full-bleed photo, or the Beacons close. Remaps ground variables to the bordeaux set.
+- **Service row:** white tile, 16px corners, 18px 22px padding (22px 28px on desktop), uppercase bordeaux name and rose-text detail on one baseline. The coming-soon row drops the fill for a dashed rose-text border.
+- **Quote card:** white, 20px corners, ink-strong body, uppercase bordeaux name. The featured quote is bordeaux, spans two rows, sets its words in Bricolage 600 at up to 1.7rem in blush, name in caramel.
+- **Date ticket:** 16px-cornered outline grid on bordeaux, cells divided by hairlines, caramel label over uppercase blush value.
 
 ### Navigation
-The header sits on blush with a terracotta logo ring. Below 960px, a burger (44px, 8px radius, ink outline at 35%) opens a blush panel with a 3px violet bottom border and dotted-divided uppercase display links. From 960px, the links become 0.95rem body-weight-700 text that hovers to violet with a 3px rose underline. The violet pill CTA stays visible at every size.
+- **Desktop (960px+):** inline Hanken 700 0.82rem uppercase links tracked 0.08em in ink-strong; hover turns bordeaux and sweeps a 3px caramel underline in from the left. A small violet button closes the bar.
+- **Mobile:** 44px square burger with a 2px bordeaux border; opens a blush sheet with a 4px bordeaux bottom rule and 1.6rem uppercase Bricolage links divided by hairlines; hover violet.
+- **Announcement bar:** bordeaux strip above the header, 0.72rem uppercase blush, date and link in caramel.
+- **Header:** sticky blush bar, 68px, hairline bottom, logo in a 2px vieux-rose ring.
 
-### Placeholder Slot
-Content that does not exist yet is shown openly: terracotta dashed underlines under fill-in values with a rotated, filled terracotta "à compléter" chip (blush text, 5.23:1), and 9:16 ink video slots with a 2px dashed blush-dim border and a caramel play badge.
+### Highlighter Marker (signature)
+A caramel `linear-gradient` bar behind the key word, 0.32em tall at 88% of the line box, cloned across line breaks. With JavaScript it sweeps from 0 to 100% width over 0.9s once the heading enters the viewport; reduced motion shows the full bar.
+
+### Facts Marquee (signature)
+A caramel band of uppercase bordeaux facts separated by a drawn six-point asterisk, looping every 38s. A bordeaux pause/play toggle sits at its left edge; hover and focus pause it; reduced motion shows a static wrapped band.
+
+### Ghost Word (signature)
+A huge tone-on-tone uppercase word (22vw on mobile, up to 232px) in ghost blush behind the hero panel, filled not outlined, `aria-hidden`.
+
+### Numbered Steps
+Bordeaux 52px tiles with 16px corners holding a caramel numeral, beside an uppercase bordeaux statement.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** give each band one ground (blush, caramel, ink, white, rose or sage) and let components read the ground variables.
-- **Do** write every list as a menu row with a dotted leader and a right-aligned price.
-- **Do** keep the handwritten face to short annotations (1.25–1.6rem).
-- **Do** pin real photos with a white mat, violet pin head, tilt of 3.5° or less and the pinned shadow.
-- **Do** show missing content as a visibly marked placeholder (dashed terracotta fill line, "à compléter" chip, dashed video slot).
-- **Do** show the final state with no animation under `prefers-reduced-motion`.
+- **Do** give each section a whole ground (blush, bordeaux, white, sage, caramel or ink-strong) and alternate them so neighbours contrast.
+- **Do** state claims in uppercase Bricolage Grotesque 800 with leading of 0.88 to 0.92 and mark exactly one word with the caramel marker or caramel ink.
+- **Do** switch grounds by remapping the ground variables; on bordeaux and ink fields use blush text, blush-dim secondary text (6.50 on bordeaux) and caramel accents (5.65).
+- **Do** keep violet on actions only: violet button on light grounds, white button with violet label on dark fields.
+- **Do** use Rose Text (#7a5045) for any rose-coloured text; keep Vieux Rose (#b78a7d) for rings and ornament.
+- **Do** mark unfinished content visibly with the caramel placeholder chip and a dashed underline or border.
+- **Do** honour reduced motion: final marker state, static wrapped marquee, no transitions.
 
 ### Don't:
-- **Don't** use tints or opacity washes of violet or rose. Ink at reduced alpha (hairlines, dotted dividers, shadows) is the only translucent colour.
-- **Don't** set violet text on caramel or sage, or rose #b78a7d as text on light grounds. Use ink-strong or rose-text instead.
-- **Don't** bring back the old slate/sunflower/fluoro-pink palette: it is not the brand.
-- **Don't** put shadows on buttons, bands or the header.
-- **Don't** set paragraphs or headlines in the handwritten face.
-- **Don't** lay offers out as a row of equal centred cards. They are courses on a menu.
+- **Don't** set the pastel coach template: script headlines, blush on every section, three equal soft cards.
+- **Don't** bring back the café-slate vocabulary: chalk handwriting, Polaroid frames, dotted price leaders.
+- **Don't** use violet for headings, fills or decoration.
+- **Don't** set Vieux Rose (#b78a7d) or Ghost Blush (#e9c8c2) as readable text.
+- **Don't** separate content with shadows; use a ground change or a hairline.
+- **Don't** mark more than one word per headline.
+- **Don't** extend sage beyond the reviews band.

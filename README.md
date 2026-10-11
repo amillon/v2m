@@ -4,7 +4,7 @@ Maquettes statiques (HTML/CSS) de la nouvelle page d'accueil de https://v2m-secr
 
 | Version | Fichier | Univers |
 |---|---|---|
-| V1 « L'Ardoise » | `index.html` | Ardoise de café aux couleurs de la marque (rose poudré, terracotta, caramel, CTA violet), capitales condensées |
+| V1 « Franc-Parler » | `index.html` | Affiche de consultante en aplats de couleur (bordeaux, rose poudré, caramel, sauge, CTA violet), grandes capitales Bricolage Grotesque, mots surlignés, bandeau défilant ; inspirée de comcassie.fr |
 | V2 « Sobre » | `v2/index.html` | Couleurs du site actuel, Poppins, épuré |
 | V3 « Façon Instagram » | `v3/index.html` | Site classique avec codes Instagram (story, carrousel, commentaires) |
 
@@ -12,4 +12,4 @@ Aperçu local : `python3 -m http.server 8765` puis http://localhost:8765/, /v2/,
 
 Placeholders à compléter (marqués « à compléter » / « à venir ») : date, lieu et thème du prochain Petit Dej, vidéo récap, liens des Reels témoignages, liste des services administratifs.
 
-Contexte produit : `PRODUCT.md`. Système visuel V1 : `DESIGN.md`.
+Contexte produit : `PRODUCT.md`. Système visuel V1 : `DESIGN.md` (+ `.impeccable/design.json`).

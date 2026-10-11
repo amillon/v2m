@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>V2M Secrétaire | Petit Dej Entr'Femmes, Instagram, Reels et secrétariat à Bordeaux</title>
   <meta name="description" content="Valérie Mollier, secrétaire comptable en région bordelaise : le Petit Dej Entr'Femmes du mois, l'accompagnement Instagram en 4 semaines, les Reels clés en main et ton administratif.">
-  <meta name="theme-color" content="#F2DCD9">
+  <meta name="theme-color" content="#5C1F2E">
   <link rel="icon" type="image/jpeg" href="assets/img/web/logo-v2m.jpg">
   <link rel="apple-touch-icon" href="assets/img/web/logo-v2m.jpg">
 
@@ -17,11 +17,18 @@
   <meta property="og:image" content="assets/img/web/petit-dej-ambiance.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preload" href="assets/fonts/Archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/BricolageGrotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
   <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- Announcement bar: next Petit Dej. Update the date together with the hero ticket below. -->
+  <p class="annonce">
+    <span>Prochain Petit Dej<span class="annonce__long"> Entr'Femmes</span>&nbsp;: <b class="annonce__date">date à compléter</b></span>
+    <a href="https://www.billetweb.fr/petit-dej-entrfemmes-a-cadaujac" target="_blank" rel="noopener">Je réserve<span class="sr"> (billetterie Billetweb, nouvelle fenêtre)</span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="M3 8h9M8.5 4l4 4-4 4"/></svg></a>
+  </p>
 
   <header class="topbar">
     <div class="wrap topbar__in">
@@ -39,7 +46,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a class="pill" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Appel découverte</a>
+      <a class="btn btn--primary btn--sm topbar__cta" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Appel découverte<span class="sr"> (nouvelle fenêtre)</span></a>
       <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/></svg>
       </button>
@@ -50,188 +57,197 @@
   <span id="top"></span>
 
   <!-- ============ 1. HERO : Petit Dej du mois ============ -->
-  <section class="hero ground-blush" id="petit-dej" aria-labelledby="hero-title">
-    <div class="wrap hero__grid">
-      <div class="hero__text">
-        <h1 class="display hero__title" id="hero-title">
-          <span class="chalk" style="--i:0">Petit dej</span>
-          <span class="chalk" style="--i:1">Entr'femmes</span>
-        </h1>
+  <section class="hero" id="petit-dej" aria-labelledby="hero-title">
+    <p class="ghost" aria-hidden="true">Entr'femmes</p>
+    <div class="wrap">
+      <div class="panel hero__panel">
+        <div class="hero__text">
+          <h1 class="display hero__title" id="hero-title">Petit Dej <span class="hl-ink">Entr'Femmes</span></h1>
 
-        <!-- ================================================================
-             A COMPLETER CHAQUE MOIS : date, lieu et thème de la prochaine édition.
-             Remplacer uniquement le texte à l'intérieur des balises <span class="fill">
-             puis supprimer les <span class="todo">à compléter</span> correspondants.
-             ================================================================ -->
-        <div class="plat" role="group" aria-label="Plat du jour : prochaine édition">
-          <p class="plat__line plat__line--date chalk" style="--i:2">
-            <span class="plat__k">Date</span><span class="fill">Jeudi __ ________ 2026</span><span class="todo">à compléter</span>
-          </p>
-          <p class="plat__line chalk" style="--i:3">
-            <span class="plat__k">Lieu</span><span class="fill">Lieu à confirmer</span><span class="todo">à compléter</span>
-          </p>
-          <p class="plat__line chalk" style="--i:4">
-            <span class="plat__k">Thème</span><span class="fill">Thème à venir</span><span class="todo">à compléter</span>
-          </p>
+          <!-- ================================================================
+               A COMPLETER CHAQUE MOIS : date, lieu et thème de la prochaine édition.
+               Remplacer uniquement le texte à l'intérieur des balises <span class="fill">
+               puis supprimer les <span class="todo">à compléter</span> correspondants.
+               Penser aussi à la date de la barre d'annonce en haut de page.
+               ================================================================ -->
+          <dl class="ticket" aria-label="Prochaine édition">
+            <div class="ticket__cell ticket__cell--date">
+              <dt>Date</dt>
+              <dd><span class="fill">Jeudi __ ____ 2026</span><span class="todo">à compléter</span></dd>
+            </div>
+            <div class="ticket__cell">
+              <dt>Lieu</dt>
+              <dd><span class="fill">Lieu à confirmer</span><span class="todo">à compléter</span></dd>
+            </div>
+            <div class="ticket__cell">
+              <dt>Thème</dt>
+              <dd><span class="fill">Thème à venir</span><span class="todo">à compléter</span></dd>
+            </div>
+          </dl>
+          <!-- ================= fin du bloc à compléter ================= -->
+
+          <div class="hero__cta">
+            <a class="btn btn--light btn--lg" href="https://www.billetweb.fr/petit-dej-entrfemmes-a-cadaujac" target="_blank" rel="noopener">Je réserve ma place<span class="sr"> (billetterie Billetweb, nouvelle fenêtre)</span></a>
+            <a class="link" href="#concept">C'est quoi&nbsp;?</a>
+          </div>
         </div>
-        <!-- ================= fin du bloc à compléter ================= -->
 
-        <div class="hero__cta">
-          <a class="btn btn--primary" href="https://www.billetweb.fr/petit-dej-entrfemmes-a-cadaujac" target="_blank" rel="noopener">Je réserve ma place<span class="sr"> (billetterie Billetweb, nouvelle fenêtre)</span></a>
-          <a class="chalk-link" href="#concept">C'est quoi ?</a>
-          <svg class="arrow" viewBox="0 0 64 40" width="64" height="40" aria-hidden="true" focusable="false"><path d="M3 8 C20 2 40 8 52 28"/><path d="M40 27 L53 30 L56 16"/></svg>
-        </div>
-      </div>
-
-      <div class="hero__photos">
-        <figure class="pin pin--a">
-          <img src="assets/img/web/petit-dej-ambiance.jpg" width="750" height="1000" alt="Participantes réunies autour de Valérie lors d'un Petit Dej Entr'Femmes, dans un salon chaleureux.">
-        </figure>
-        <figure class="pin pin--b">
-          <img src="assets/img/web/petit-dej-fev26.jpg" width="750" height="1000" alt="Table du petit déjeuner fait maison, préparée pour l'édition de février 2026.">
+        <figure class="hero__photo">
+          <img src="assets/img/web/v1-petit-dej-ambiance.jpg" width="702" height="938" alt="Participantes réunies autour de Valérie lors d'un Petit Dej Entr'Femmes, dans un salon chaleureux.">
           <!-- Video slot: replace this div with a <a> or <button> opening the recap video once it exists -->
-          <div class="play" role="img" aria-label="Vidéo récap à venir">
-            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
+          <div class="badge" role="img" aria-label="Vidéo récap à venir">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
             <span>Vidéo récap à venir</span>
           </div>
         </figure>
       </div>
-
-      <div class="hero__concept" id="concept">
-        <p>Des rendez-vous mensuels pour créer du lien et échanger dans la bienveillance, avec une intervention différente à chaque fois.</p>
-        <ul class="menu" aria-label="Au programme de chaque Petit Dej">
-          <li class="row"><span>Petit déjeuner</span><i class="lead" aria-hidden="true"></i><b>fait maison</b></li>
-          <li class="row"><span>Réseautage</span><i class="lead" aria-hidden="true"></i><b>en douceur</b></li>
-          <li class="row"><span>Intervention</span><i class="lead" aria-hidden="true"></i><b>différente à chaque fois</b></li>
-          <li class="row"><span>Lieux</span><i class="lead" aria-hidden="true"></i><b>cocooning</b></li>
-        </ul>
-      </div>
     </div>
   </section>
 
-  <!-- ============ 2. Suggestion de la cheffe : Instagram 1:1 ============ -->
-  <section class="chef ground-caramel" id="instagram" aria-labelledby="chef-title">
+  <!-- ============ 1b. Le concept ============ -->
+  <section class="concept" id="concept" aria-labelledby="concept-title">
     <div class="wrap">
-      <h2 class="display h-section" id="chef-title">Suggestion de la cheffe<span class="h-sub">Accompagnement Instagram 1:1</span></h2>
-      <div class="chef__grid">
-        <div class="chef__main">
-          <p class="chef__quote display">« Arrête le flou, adopte le flow »</p>
-          <p class="chef__sub">Deviens autonome en 4 semaines.</p>
+      <h2 class="display h-section h-center" id="concept-title">Entreprendre <s>seule</s> <span class="hl" data-hl>ensemble</span>.</h2>
+      <p class="lede lede--center">Des rendez-vous mensuels pour créer du lien et échanger dans la bienveillance, avec une intervention différente à chaque fois.</p>
+      <div class="concept__body">
+        <ul class="facts" aria-label="Au programme de chaque Petit Dej">
+          <li>Petit déjeuner fait maison</li>
+          <li>Réseautage en douceur</li>
+          <li>Une intervention différente à chaque fois</li>
+          <li>Des lieux cocooning</li>
+        </ul>
+        <a class="btn btn--primary btn--lg" href="https://www.billetweb.fr/petit-dej-entrfemmes-a-cadaujac" target="_blank" rel="noopener">Je réserve ma place<span class="sr"> (billetterie Billetweb, nouvelle fenêtre)</span></a>
+      </div>
+      <figure class="concept__photo">
+        <img src="assets/img/web/v1-petit-dej-fev26.jpg" width="678" height="904" loading="lazy" alt="Table du petit déjeuner fait maison, préparée pour l'édition de février 2026.">
+      </figure>
+    </div>
+  </section>
 
-          <h3 class="h-menu">Le menu en 4 services</h3>
-          <ol class="menu menu--courses">
-            <li class="row row--course">
-              <span class="row__t">Audit &amp; Diagnostic</span><i class="lead" aria-hidden="true"></i><b>Semaine 1</b>
-              <p>On pose les bases : ce qui fonctionne, ce qui ne fonctionne pas, ce qui freine ta visibilité.</p>
-            </li>
-            <li class="row row--course">
-              <span class="row__t">Stratégie &amp; Cible</span><i class="lead" aria-hidden="true"></i><b>Semaine 2</b>
-              <p>On construit ton message, ta ligne éditoriale, ton identité visuelle. Allez, on organise tout ça.</p>
-            </li>
-            <li class="row row--course">
-              <span class="row__t">Création de contenu</span><i class="lead" aria-hidden="true"></i><b>Semaine 3</b>
-              <p>Tu passes à l'action : posts, stories, visuels. Tu reprends la main sur ta communication.</p>
-            </li>
-            <li class="row row--course">
-              <span class="row__t">Organisation &amp; Reels</span><i class="lead" aria-hidden="true"></i><b>Semaine 4</b>
-              <p>Tu apprends à planifier, à créer des Reels sans y passer 4h, et surtout à rester constante sans t'épuiser.</p>
-            </li>
-          </ol>
-          <ul class="menu menu--price">
-            <li class="row row--total"><span class="row__t">Le menu complet</span><i class="lead" aria-hidden="true"></i><b>545 €</b></li>
-          </ul>
-          <p class="chef__pay">Paiement possible en 2 fois.</p>
+  <!-- ============ 2. Accompagnement Instagram 1:1 ============ -->
+  <section class="insta field" id="instagram" aria-labelledby="insta-title">
+    <div class="wrap">
+      <div class="insta__head">
+        <h2 class="display h-section" id="insta-title">Arrête le flou, adopte le <span class="hl-ink">flow</span></h2>
+        <p class="lede"><b>Accompagnement Instagram 1:1.</b> Deviens autonome en 4 semaines.</p>
+      </div>
+
+      <ol class="weeks" aria-label="Le programme en 4 séances">
+        <li class="week"><span class="week__n" aria-hidden="true">1</span><h3><span class="sr">Semaine 1 : </span>Audit &amp; Diagnostic</h3><p>On pose les bases : ce qui fonctionne, ce qui ne fonctionne pas, ce qui freine ta visibilité.</p></li>
+        <li class="week"><span class="week__n" aria-hidden="true">2</span><h3><span class="sr">Semaine 2 : </span>Stratégie &amp; Cible</h3><p>On construit ton message, ta ligne éditoriale, ton identité visuelle. Allez, on organise tout ça.</p></li>
+        <li class="week"><span class="week__n" aria-hidden="true">3</span><h3><span class="sr">Semaine 3 : </span>Création de contenu</h3><p>Tu passes à l'action : posts, stories, visuels. Tu reprends la main sur ta communication.</p></li>
+        <li class="week"><span class="week__n" aria-hidden="true">4</span><h3><span class="sr">Semaine 4 : </span>Organisation &amp; Reels</h3><p>Tu apprends à planifier, à créer des Reels sans y passer 4h, et surtout à rester constante sans t'épuiser.</p></li>
+      </ol>
+
+      <div class="deal">
+        <div class="deal__price">
+          <p class="price"><span class="price__n">545&nbsp;€</span><span class="price__note">l'accompagnement complet, paiement possible en 2 fois</span></p>
+          <dl class="infos">
+            <div><dt>Durée</dt><dd>4 × 1h30, un rendez-vous par semaine</dd></div>
+            <div><dt>Format</dt><dd>Visio ou présentiel, au choix</dd></div>
+            <div><dt>Places</dt><dd>2 par mois</dd></div>
+          </dl>
         </div>
-
-        <aside class="chef__side" aria-label="Bonus et infos pratiques">
-          <div class="slip">
-            <h3 class="h-menu">En bonus</h3>
-            <ul class="plain">
-              <li>Modèles de stories et de posts</li>
-              <li>Un groupe WhatsApp entre les 4 semaines</li>
-              <li>Une fiche mémo ou e-book récapitulatif par séance</li>
-              <li>Une séance de suivi à +1 mois pour faire le point</li>
-            </ul>
-          </div>
-          <div class="slip">
-            <h3 class="h-menu">Infos pratiques</h3>
-            <dl class="infos">
-              <div><dt>Durée</dt><dd>4 × 1h30, un rendez-vous par semaine</dd></div>
-              <div><dt>Format</dt><dd>Visio ou présentiel, au choix</dd></div>
-              <div><dt>Tarif</dt><dd>545 €, possible en 2 fois</dd></div>
-              <div><dt>Places</dt><dd>2 par mois</dd></div>
-            </dl>
-          </div>
-          <p class="stamp" aria-hidden="true">2 places<br>par mois</p>
-        </aside>
+        <div class="deal__bonus">
+          <h3 class="h-small">En bonus</h3>
+          <ul class="checks">
+            <li>Modèles de stories et de posts</li>
+            <li>Un groupe WhatsApp entre les 4 semaines</li>
+            <li>Une fiche mémo ou e-book récapitulatif par séance</li>
+            <li>Une séance de suivi à +1 mois pour faire le point</li>
+          </ul>
+        </div>
       </div>
 
       <div class="cta-row">
-        <a class="btn btn--ink" href="https://v2msecretaireaccompagnementinstagram.my.canva.site" target="_blank" rel="noopener">Voir le programme<span class="sr"> (nouvelle fenêtre)</span></a>
-        <a class="btn btn--line" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Réserver un appel découverte<span class="sr"> (nouvelle fenêtre)</span></a>
+        <a class="btn btn--light btn--lg" href="https://v2msecretaireaccompagnementinstagram.my.canva.site" target="_blank" rel="noopener">Voir le programme<span class="sr"> (nouvelle fenêtre)</span></a>
+        <a class="btn btn--outline btn--lg" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Réserver un appel découverte<span class="sr"> (nouvelle fenêtre)</span></a>
       </div>
     </div>
   </section>
 
+  <!-- ============ Bandeau défilant (faits vérifiés uniquement) ============ -->
+  <div class="marquee" role="region" aria-label="En bref">
+    <button class="marquee__toggle" type="button" aria-pressed="false" aria-label="Mettre en pause le bandeau défilant">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path class="i-pause" d="M8 5v14M16 5v14"/><path class="i-play" d="M8 5.5v13l11-6.5z"/></svg>
+    </button>
+    <ul class="marquee__track">
+      <li>20 ans de secrétariat comptable</li>
+      <li>Un Petit Dej chaque mois</li>
+      <li>Instagram autonome en 4 semaines</li>
+      <li>Reels clés en main</li>
+      <li>Région bordelaise</li>
+      <li>2 places par mois</li>
+    </ul>
+    <ul class="marquee__track" aria-hidden="true">
+      <li>20 ans de secrétariat comptable</li>
+      <li>Un Petit Dej chaque mois</li>
+      <li>Instagram autonome en 4 semaines</li>
+      <li>Reels clés en main</li>
+      <li>Région bordelaise</li>
+      <li>2 places par mois</li>
+    </ul>
+  </div>
+
   <!-- ============ 3. Offre Reels ============ -->
-  <section class="reels ground-ink" id="reels" aria-labelledby="reels-title">
+  <section class="reels" id="reels" aria-labelledby="reels-title">
     <div class="wrap reels__grid">
       <figure class="reels__photo">
         <img src="assets/img/web/reels.jpg" width="640" height="427" loading="lazy" alt="Tournage d'un Reel avec Valérie pour une cliente entrepreneure.">
-        <span class="note note--abs">ça marche aussi à distance</span>
+        <figcaption>Ça marche aussi à distance.</figcaption>
       </figure>
       <div class="reels__text">
-        <h2 class="display h-section" id="reels-title">Offre Reels<br>« Be ready »</h2>
+        <h2 class="display h-section" id="reels-title">Offre Reels <span class="hl" data-hl>«&nbsp;Be ready&nbsp;»</span></h2>
         <p class="lede">L'idée, l'audio, le tournage, le montage, la légende : je m'occupe de tout.</p>
-        <ol class="menu menu--steps">
-          <li class="row"><span>Un call d'une heure</span><i class="lead" aria-hidden="true"></i><b>étape 1</b></li>
-          <li class="row"><span>Ma proposition sous 5 jours</span><i class="lead" aria-hidden="true"></i><b>étape 2</b></li>
-          <li class="row"><span>Le tournage</span><i class="lead" aria-hidden="true"></i><b>étape 3</b></li>
+        <ol class="steps" aria-label="Comment ça se passe">
+          <li><span class="steps__n" aria-hidden="true">1</span><span><span class="sr">Étape 1 : </span>Un call d'une heure</span></li>
+          <li><span class="steps__n" aria-hidden="true">2</span><span><span class="sr">Étape 2 : </span>Ma proposition sous 5 jours</span></li>
+          <li><span class="steps__n" aria-hidden="true">3</span><span><span class="sr">Étape 3 : </span>Le tournage</span></li>
         </ol>
-        <a class="btn btn--primary" href="https://v2m-secretaire.fr/offre-reels/" target="_blank" rel="noopener">Découvrir l'offre Reels<span class="sr"> (nouvelle fenêtre)</span></a>
+        <a class="btn btn--primary btn--lg" href="https://v2m-secretaire.fr/offre-reels/" target="_blank" rel="noopener">Découvrir l'offre Reels<span class="sr"> (nouvelle fenêtre)</span></a>
       </div>
     </div>
   </section>
 
   <!-- ============ 4. Services administratifs ============ -->
-  <section class="services ground-white" id="services" aria-labelledby="services-title">
+  <section class="services" id="services" aria-labelledby="services-title">
     <div class="wrap services__grid">
       <div class="services__intro">
-        <h2 class="display h-section" id="services-title">Au menu aussi : ton administratif</h2>
+        <h2 class="display h-section" id="services-title">Ton administratif, <span class="hl" data-hl>je&nbsp;m'en occupe</span></h2>
         <p class="lede">20 ans de secrétariat comptable, pour que la paperasse arrête de te voler tes journées.</p>
-        <a class="btn btn--ink" href="https://v2m-secretaire.fr/services/" target="_blank" rel="noopener">Voir tous les services<span class="sr"> (nouvelle fenêtre)</span></a>
       </div>
-      <ul class="menu menu--services" aria-label="Services administratifs">
-        <li class="row"><span>Gestion administrative</span><i class="lead" aria-hidden="true"></i><b>au quotidien</b></li>
-        <li class="row"><span>Gestion commerciale</span><i class="lead" aria-hidden="true"></i><b>devis, relances</b></li>
-        <li class="row"><span>Ressources humaines</span><i class="lead" aria-hidden="true"></i><b>paie, contrats</b></li>
-        <li class="row"><span>Préparation comptabilité</span><i class="lead" aria-hidden="true"></i><b>bilan</b></li>
+      <ul class="rows" aria-label="Services administratifs">
+        <li><span class="rows__t">Gestion administrative</span><span class="rows__d">au quotidien</span></li>
+        <li><span class="rows__t">Gestion commerciale</span><span class="rows__d">devis, relances</span></li>
+        <li><span class="rows__t">Ressources humaines</span><span class="rows__d">paie, contrats</span></li>
+        <li><span class="rows__t">Préparation comptabilité</span><span class="rows__d">bilan</span></li>
         <!-- Admin list to be detailed by the client: edit this row when the final wording arrives -->
-        <li class="row row--soon"><span>Formalités INPI, changement d'adresse, ajout d'activité…</span><i class="lead" aria-hidden="true"></i><b>détail à venir</b></li>
+        <li class="rows__soon"><span class="rows__t">Formalités INPI, changement d'adresse, ajout d'activité…</span><span class="todo">détail à venir</span></li>
       </ul>
+      <a class="btn btn--primary btn--lg services__cta" href="https://v2m-secretaire.fr/services/" target="_blank" rel="noopener">Voir tous les services<span class="sr"> (nouvelle fenêtre)</span></a>
     </div>
   </section>
 
   <!-- ============ 5. Avis clients ============ -->
-  <section class="avis ground-rose" id="avis" aria-labelledby="avis-title">
+  <section class="avis" id="avis" aria-labelledby="avis-title">
     <div class="wrap">
-      <h2 class="display h-section" id="avis-title">Elles en parlent</h2>
-      <div class="slates">
-        <figure class="slate slate--lg">
-          <blockquote><p>« J'étais totalement tétanisée sur le sujet des Réels et j'avais besoin qu'on me coache. Elle m'a trouvé les idées et a tout réalisé, je n'avais qu'à poster. J'ai eu beaucoup d'appels grâce à ça. »</p><p>« Valérie est très disponible, à l'écoute et a une réelle envie d'aider à simplifier notre quotidien. »</p></blockquote>
-          <figcaption>Aline, sommeil bébé/enfant</figcaption>
+      <h2 class="display h-section h-center" id="avis-title">Elles en <span class="hl" data-hl>parlent</span></h2>
+      <div class="quotes">
+        <figure class="quote quote--lg">
+          <blockquote><p>«&nbsp;J'étais totalement tétanisée sur le sujet des Réels et j'avais besoin qu'on me coache. Elle m'a trouvé les idées et a tout réalisé, je n'avais qu'à poster. J'ai eu beaucoup d'appels grâce à ça.&nbsp;»</p><p>«&nbsp;Valérie est très disponible, à l'écoute et a une réelle envie d'aider à simplifier notre quotidien.&nbsp;»</p></blockquote>
+          <figcaption><b>Aline</b> sommeil bébé/enfant</figcaption>
         </figure>
-        <figure class="slate">
-          <blockquote><p>« J'ai compris pourquoi ça ne fonctionnait pas. Et maintenant, j'ai des idées, un calendrier, et je prends enfin du plaisir à communiquer. »</p></blockquote>
-          <figcaption>Marion, fondatrice e-shop thé et café</figcaption>
+        <figure class="quote">
+          <blockquote><p>«&nbsp;J'ai compris pourquoi ça ne fonctionnait pas. Et maintenant, j'ai des idées, un calendrier, et je prends enfin du plaisir à communiquer.&nbsp;»</p></blockquote>
+          <figcaption><b>Marion</b> fondatrice e-shop thé et café</figcaption>
         </figure>
-        <figure class="slate">
-          <blockquote><p>« Valérie a su tout de suite capter l'univers dans lequel j'étais pour pouvoir développer ma page Instagram en accord avec mon travail et ma personnalité. Je la recommande à 1000% »</p></blockquote>
-          <figcaption>Juliette, thérapeute somato-émotionnelle</figcaption>
+        <figure class="quote">
+          <blockquote><p>«&nbsp;Valérie a su tout de suite capter l'univers dans lequel j'étais pour pouvoir développer ma page Instagram en accord avec mon travail et ma personnalité. Je la recommande à 1000%&nbsp;»</p></blockquote>
+          <figcaption><b>Juliette</b> thérapeute somato-émotionnelle</figcaption>
         </figure>
       </div>
 
-      <h3 class="h-menu h-menu--ink">En vidéo, sur Instagram</h3>
+      <h3 class="h-small h-center">En vidéo, sur Instagram</h3>
       <!--
         Video testimonial slots (9:16). To use an Instagram embed or link, replace the
         whole <a class="vslot"> below with the official embed code, or just point its
@@ -239,62 +255,70 @@
       -->
       <ul class="vslots">
         <li><a class="vslot" href="https://www.instagram.com/valeriedegommetagestion/" target="_blank" rel="noopener" aria-label="Témoignage vidéo à venir, voir le compte Instagram (nouvelle fenêtre)">
-          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
           <span>Témoignage vidéo à venir</span></a></li>
         <li><a class="vslot" href="https://www.instagram.com/valeriedegommetagestion/" target="_blank" rel="noopener" aria-label="Témoignage vidéo à venir, voir le compte Instagram (nouvelle fenêtre)">
-          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
           <span>Témoignage vidéo à venir</span></a></li>
         <li><a class="vslot" href="https://www.instagram.com/valeriedegommetagestion/" target="_blank" rel="noopener" aria-label="Témoignage vidéo à venir, voir le compte Instagram (nouvelle fenêtre)">
-          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
           <span>Témoignage vidéo à venir</span></a></li>
       </ul>
     </div>
   </section>
 
   <!-- ============ 6. Qui suis-je ============ -->
-  <section class="about ground-blush" id="qui" aria-labelledby="about-title">
+  <section class="about" id="qui" aria-labelledby="about-title">
     <div class="wrap about__grid">
+      <div class="about__text">
+        <h2 class="display h-section" id="about-title">Qui suis-je&nbsp;?</h2>
+        <p class="lede">Après 20 ans d'expérience comme Secrétaire Comptable dans différentes entreprises et PME, j'ai décidé de me mettre à mon compte. Le but&nbsp;: apporter à mes clients la solution la plus adaptée à leur besoin, leur faire gagner du temps afin qu'ils se consacrent à leur cœur de métier.</p>
+        <p>Gestion administrative d'un côté, communication de l'autre : l'accompagnement Instagram, les Reels, et le Petit Dej Entr'Femmes que j'organise chaque mois pour qu'on ne se sente plus seules dans nos activités.</p>
+      </div>
       <figure class="about__photo">
         <img src="assets/img/web/valerie.jpg" width="800" height="800" loading="lazy" alt="Portrait de Valérie Mollier, fondatrice de V2M Secrétaire.">
       </figure>
-      <div class="about__text">
-        <h2 class="display h-section" id="about-title">Qui suis-je ?</h2>
-        <p class="lede">Après 20 ans d'expérience comme Secrétaire Comptable dans différentes entreprises et PME, j'ai décidé de me mettre à mon compte. Le but&nbsp;: apporter à mes clients la solution la plus adaptée à leur besoin, leur faire gagner du temps afin qu'ils se consacrent à leur cœur de métier.</p>
-        <p>Gestion administrative d'un côté, communication de l'autre : l'accompagnement Instagram, les Reels, et le Petit Dej Entr'Femmes que j'organise chaque mois pour qu'on ne se sente plus seules dans nos activités.</p>
-        <p class="tagline display">Je dégomme votre gestion et votre com'</p>
-      </div>
     </div>
+  </section>
+
+  <section class="slogan" aria-label="Ma devise">
+    <p class="wrap tagline display">Je <span class="hl" data-hl>dégomme</span> votre gestion et votre com'</p>
   </section>
   </main>
 
   <!-- ============ 7. Clôture / footer ============ -->
   <footer class="close" id="contact">
-    <section class="beacons ground-sage" aria-labelledby="beacons-title">
-      <div class="wrap beacons__in">
-        <h2 class="display h-section" id="beacons-title">Tous mes liens, ressources et offres sur Beacons</h2>
-        <a class="btn btn--ink btn--lg" href="https://beacons.ai/v2m.secretaire" target="_blank" rel="noopener">Ouvrir ma page Beacons<span class="sr"> (nouvelle fenêtre)</span></a>
-        <ul class="menu menu--beacons" aria-label="Sur ma page Beacons">
-          <li class="row"><span>Mes liens</span><i class="lead" aria-hidden="true"></i><b>tous réunis</b></li>
-          <li class="row"><span>Mes offres</span><i class="lead" aria-hidden="true"></i><b>en un clic</b></li>
-          <li class="row"><span>Mes ressources gratuites</span><i class="lead" aria-hidden="true"></i><b>pour avancer</b></li>
-        </ul>
+    <section class="beacons" aria-labelledby="beacons-title">
+      <div class="wrap">
+        <div class="panel beacons__panel">
+          <h2 class="display h-section" id="beacons-title">Tous mes liens, ressources et offres sur <span class="hl-ink">Beacons</span></h2>
+          <ul class="beacons__list" aria-label="Sur ma page Beacons">
+            <li><b>Mes liens</b> tous réunis</li>
+            <li><b>Mes offres</b> en un clic</li>
+            <li><b>Mes ressources gratuites</b> pour avancer</li>
+          </ul>
+          <a class="btn btn--light btn--lg" href="https://beacons.ai/v2m.secretaire" target="_blank" rel="noopener">Ouvrir ma page Beacons<span class="sr"> (nouvelle fenêtre)</span></a>
+        </div>
       </div>
     </section>
 
-    <div class="ground-ink close__body">
+    <div class="close__body field field--ink">
       <div class="wrap close__grid">
-        <div class="bonbon ground-white">
-          <h2 class="display h-small">On se parle ?</h2>
+        <div class="close__contact">
+          <h2 class="display h-small">On se parle&nbsp;?</h2>
           <p><a class="mail" href="mailto:bonjour@v2m-secretaire.fr">bonjour@v2m-secretaire.fr</a></p>
           <p>Région bordelaise</p>
-          <p><a class="btn btn--ink" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Appel découverte<span class="sr"> (nouvelle fenêtre)</span></a></p>
+          <p><a class="btn btn--light" href="https://calendly.com/v2m-secretaire/rdv" target="_blank" rel="noopener">Appel découverte<span class="sr"> (nouvelle fenêtre)</span></a></p>
         </div>
-        <ul class="menu menu--links" aria-label="Liens utiles">
-          <li class="row"><a href="https://v2m-secretaire.fr/freebie/" target="_blank" rel="noopener"><span>Questionnaire client idéal (gratuit)</span><i class="lead" aria-hidden="true"></i><b>freebie</b></a></li>
-          <li class="row"><a href="https://www.instagram.com/valeriedegommetagestion/" target="_blank" rel="noopener"><span>Instagram</span><i class="lead" aria-hidden="true"></i><b>@valeriedegommetagestion</b></a></li>
-          <li class="row"><a href="https://www.instagram.com/v2m.secretaire/" target="_blank" rel="noopener"><span>Instagram</span><i class="lead" aria-hidden="true"></i><b>@v2m.secretaire</b></a></li>
-          <li class="row"><a href="https://www.facebook.com/V2M-Secrétaire-107651968399653" target="_blank" rel="noopener"><span>Facebook</span><i class="lead" aria-hidden="true"></i><b>V2M Secrétaire</b></a></li>
-        </ul>
+        <div class="close__links">
+          <h2 class="foot-h">Ailleurs</h2>
+          <ul class="foot-links" aria-label="Liens utiles">
+            <li><a href="https://v2m-secretaire.fr/freebie/" target="_blank" rel="noopener">Questionnaire client idéal <span class="foot-links__d">gratuit</span></a></li>
+            <li><a href="https://www.instagram.com/valeriedegommetagestion/" target="_blank" rel="noopener">Instagram <span class="foot-links__d">@valeriedegommetagestion</span></a></li>
+            <li><a href="https://www.instagram.com/v2m.secretaire/" target="_blank" rel="noopener">Instagram <span class="foot-links__d">@v2m.secretaire</span></a></li>
+            <li><a href="https://www.facebook.com/V2M-Secrétaire-107651968399653" target="_blank" rel="noopener">Facebook <span class="foot-links__d">V2M Secrétaire</span></a></li>
+          </ul>
+        </div>
       </div>
       <div class="wrap legal">
         <p>© <span id="year">2026</span> V2M Secrétaire, Valérie Mollier</p>

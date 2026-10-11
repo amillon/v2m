@@ -1,9 +1,114 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-11T12:00:00+02:00",
+  "generatedAt": "2026-10-11T10:57:33+00:00",
   "title": "Design System: V2M Secrétaire",
   "extensions": {
     "colorMeta": {
+      "bordeaux": {
+        "role": "primary",
+        "displayName": "Bordeaux",
+        "canonical": "#5c1f2e",
+        "tonalRamp": [
+          "oklch(15% 0.09 10)",
+          "oklch(25% 0.09 10)",
+          "oklch(35% 0.09 10)",
+          "oklch(45% 0.09 10)",
+          "oklch(57% 0.09 10)",
+          "oklch(69% 0.09 10)",
+          "oklch(82% 0.09 10)",
+          "oklch(95% 0.09 10)"
+        ]
+      },
+      "caramel": {
+        "role": "secondary",
+        "displayName": "Caramel Marker",
+        "canonical": "#caa98a",
+        "tonalRamp": [
+          "oklch(15% 0.06 65)",
+          "oklch(25% 0.06 65)",
+          "oklch(35% 0.06 65)",
+          "oklch(45% 0.06 65)",
+          "oklch(57% 0.06 65)",
+          "oklch(69% 0.06 65)",
+          "oklch(82% 0.06 65)",
+          "oklch(95% 0.06 65)"
+        ]
+      },
+      "rose": {
+        "role": "secondary",
+        "displayName": "Vieux Rose (logo lettering)",
+        "canonical": "#b78a7d",
+        "tonalRamp": [
+          "oklch(15% 0.05 40)",
+          "oklch(25% 0.05 40)",
+          "oklch(35% 0.05 40)",
+          "oklch(45% 0.05 40)",
+          "oklch(57% 0.05 40)",
+          "oklch(69% 0.05 40)",
+          "oklch(82% 0.05 40)",
+          "oklch(95% 0.05 40)"
+        ]
+      },
+      "rose-text": {
+        "role": "secondary",
+        "displayName": "Rose Text",
+        "canonical": "#7a5045",
+        "tonalRamp": [
+          "oklch(15% 0.05 40)",
+          "oklch(25% 0.05 40)",
+          "oklch(35% 0.05 40)",
+          "oklch(45% 0.05 40)",
+          "oklch(57% 0.05 40)",
+          "oklch(69% 0.05 40)",
+          "oklch(82% 0.05 40)",
+          "oklch(95% 0.05 40)"
+        ]
+      },
+      "violet": {
+        "role": "tertiary",
+        "displayName": "Action Violet",
+        "canonical": "#8300e9",
+        "tonalRamp": [
+          "oklch(15% 0.27 300)",
+          "oklch(25% 0.27 300)",
+          "oklch(35% 0.27 300)",
+          "oklch(45% 0.27 300)",
+          "oklch(57% 0.27 300)",
+          "oklch(69% 0.27 300)",
+          "oklch(82% 0.27 300)",
+          "oklch(95% 0.27 300)"
+        ]
+      },
+      "violet-dark": {
+        "role": "tertiary",
+        "displayName": "Violet Dark",
+        "canonical": "#6a00bd",
+        "tonalRamp": [
+          "oklch(15% 0.24 300)",
+          "oklch(25% 0.24 300)",
+          "oklch(35% 0.24 300)",
+          "oklch(45% 0.24 300)",
+          "oklch(57% 0.24 300)",
+          "oklch(69% 0.24 300)",
+          "oklch(82% 0.24 300)",
+          "oklch(95% 0.24 300)"
+        ]
+      },
+      "sage": {
+        "role": "tertiary",
+        "displayName": "Sage",
+        "canonical": "#abb9a4",
+        "tonalRamp": [
+          "oklch(15% 0.04 135)",
+          "oklch(25% 0.04 135)",
+          "oklch(35% 0.04 135)",
+          "oklch(45% 0.04 135)",
+          "oklch(57% 0.04 135)",
+          "oklch(69% 0.04 135)",
+          "oklch(82% 0.04 135)",
+          "oklch(95% 0.04 135)"
+        ]
+      },
       "blush": {
         "role": "neutral",
         "displayName": "Blush",
@@ -19,79 +124,49 @@
           "oklch(95% 0.03 25)"
         ]
       },
-      "rose": {
-        "role": "secondary",
-        "displayName": "Rose (logo lettering)",
-        "canonical": "#b78a7d",
+      "blush-dim": {
+        "role": "neutral",
+        "displayName": "Blush Dim",
+        "canonical": "#d9b3ab",
         "tonalRamp": [
-          "oklch(15% 0.05 40)",
-          "oklch(25% 0.05 40)",
-          "oklch(35% 0.05 40)",
-          "oklch(45% 0.05 40)",
-          "oklch(57% 0.05 40)",
-          "oklch(69% 0.05 40)",
-          "oklch(82% 0.05 40)",
-          "oklch(95% 0.05 40)"
+          "oklch(15% 0.05 25)",
+          "oklch(25% 0.05 25)",
+          "oklch(35% 0.05 25)",
+          "oklch(45% 0.05 25)",
+          "oklch(57% 0.05 25)",
+          "oklch(69% 0.05 25)",
+          "oklch(82% 0.05 25)",
+          "oklch(95% 0.05 25)"
         ]
       },
-      "rose-text": {
-        "role": "secondary",
-        "displayName": "Rose Text (terracotta)",
-        "canonical": "#7a5045"
-      },
-      "caramel": {
-        "role": "secondary",
-        "displayName": "Caramel",
-        "canonical": "#caa98a",
+      "blush-ghost": {
+        "role": "neutral",
+        "displayName": "Ghost Blush",
+        "canonical": "#e9c8c2",
         "tonalRamp": [
-          "oklch(15% 0.06 65)",
-          "oklch(25% 0.06 65)",
-          "oklch(35% 0.06 65)",
-          "oklch(45% 0.06 65)",
-          "oklch(57% 0.06 65)",
-          "oklch(69% 0.06 65)",
-          "oklch(82% 0.06 65)",
-          "oklch(95% 0.06 65)"
+          "oklch(15% 0.04 25)",
+          "oklch(25% 0.04 25)",
+          "oklch(35% 0.04 25)",
+          "oklch(45% 0.04 25)",
+          "oklch(57% 0.04 25)",
+          "oklch(69% 0.04 25)",
+          "oklch(82% 0.04 25)",
+          "oklch(95% 0.04 25)"
         ]
       },
-      "violet": {
-        "role": "primary",
-        "displayName": "Violet",
-        "canonical": "#8300e9",
+      "ink-strong": {
+        "role": "neutral",
+        "displayName": "Ink Strong",
+        "canonical": "#2f2d32",
         "tonalRamp": [
-          "oklch(15% 0.2 300)",
-          "oklch(25% 0.2 300)",
-          "oklch(35% 0.2 300)",
-          "oklch(45% 0.2 300)",
-          "oklch(57% 0.2 300)",
-          "oklch(69% 0.2 300)",
-          "oklch(82% 0.2 300)",
-          "oklch(95% 0.2 300)"
-        ]
-      },
-      "violet-dark": {
-        "role": "primary",
-        "displayName": "Violet Dark",
-        "canonical": "#6a00bd"
-      },
-      "violet-light": {
-        "role": "primary",
-        "displayName": "Violet Light",
-        "canonical": "#c9a2ff"
-      },
-      "sage": {
-        "role": "secondary",
-        "displayName": "Sage",
-        "canonical": "#abb9a4",
-        "tonalRamp": [
-          "oklch(15% 0.03 130)",
-          "oklch(25% 0.03 130)",
-          "oklch(35% 0.03 130)",
-          "oklch(45% 0.03 130)",
-          "oklch(57% 0.03 130)",
-          "oklch(69% 0.03 130)",
-          "oklch(82% 0.03 130)",
-          "oklch(95% 0.03 130)"
+          "oklch(15% 0.008 300)",
+          "oklch(25% 0.008 300)",
+          "oklch(35% 0.008 300)",
+          "oklch(45% 0.008 300)",
+          "oklch(57% 0.008 300)",
+          "oklch(69% 0.008 300)",
+          "oklch(82% 0.008 300)",
+          "oklch(95% 0.008 300)"
         ]
       },
       "ink": {
@@ -109,24 +184,9 @@
           "oklch(95% 0.008 300)"
         ]
       },
-      "ink-strong": {
+      "white": {
         "role": "neutral",
-        "displayName": "Ink Strong",
-        "canonical": "#2f2d32"
-      },
-      "ink-raised": {
-        "role": "neutral",
-        "displayName": "Ink Raised",
-        "canonical": "#3d3a41"
-      },
-      "ink-deep": {
-        "role": "neutral",
-        "displayName": "Ink Deep (text on rose)",
-        "canonical": "#1f1c22"
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Paper",
+        "displayName": "White",
         "canonical": "#ffffff",
         "tonalRamp": [
           "oklch(15% 0 0)",
@@ -136,102 +196,95 @@
           "oklch(57% 0 0)",
           "oklch(69% 0 0)",
           "oklch(82% 0 0)",
-          "oklch(100% 0 0)"
+          "oklch(95% 0 0)"
         ]
       },
-      "blush-dim": {
+      "ink-dim": {
         "role": "neutral",
-        "displayName": "Blush Dim (secondary text on ink)",
-        "canonical": "#c7b6b4"
-      },
-      "caramel-ink": {
-        "role": "neutral",
-        "displayName": "Caramel Ink (secondary text on caramel)",
-        "canonical": "#4a3a30"
-      },
-      "sage-ink": {
-        "role": "neutral",
-        "displayName": "Sage Ink (secondary text on sage)",
-        "canonical": "#3d3b40"
+        "displayName": "Ink Dim",
+        "canonical": "#c7b6b4",
+        "tonalRamp": [
+          "oklch(15% 0.02 25)",
+          "oklch(25% 0.02 25)",
+          "oklch(35% 0.02 25)",
+          "oklch(45% 0.02 25)",
+          "oklch(57% 0.02 25)",
+          "oklch(69% 0.02 25)",
+          "oklch(82% 0.02 25)",
+          "oklch(95% 0.02 25)"
+        ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Hero title only; uppercase, Archivo at font-stretch 78%."
+        "purpose": "Hero title only; second line in caramel."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section titles; uppercase, font-stretch 78%."
+        "purpose": "Every section heading, carrying the one marked word."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Menu-row item names, services and Beacons rows; uppercase, font-stretch 80-85%."
+        "purpose": "Sub-headings inside a section and the footer contact heading."
       },
-      "chalk": {
-        "displayName": "Chalk",
-        "purpose": "Short handwritten annotations: prices, steps, names, notes, menu subheads."
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Short uppercase factual lines: facts, week titles, service names, steps, marquee, mobile nav."
       },
-      "body": {
-        "displayName": "Body",
-        "purpose": "Running text, 46-58ch."
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Week numbers and the price, in caramel."
       },
       "lede": {
         "displayName": "Lede",
-        "purpose": "Intro sentence under a section title, 30-40ch."
+        "purpose": "The sentence under each headline, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and quotes, max 58ch."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Every button label, uppercase."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Buttons and the header pill; uppercase, font-stretch 85%."
+        "purpose": "Definition-list terms, footer column heading, announcement bar, desktop nav."
       }
     },
     "shadows": [
       {
-        "name": "pinned-photo",
-        "value": "0 22px 34px -14px rgb(47 45 50 / 0.5), 0 4px 8px rgb(47 45 50 / 0.18)",
-        "purpose": "White-matted photos pinned on blush."
-      },
-      {
-        "name": "pin-head",
-        "value": "0 3px 5px rgb(47 45 50 / 0.4)",
-        "purpose": "Violet pin head on a photo."
-      },
-      {
-        "name": "paper-slip",
-        "value": "0 16px 26px -16px rgb(47 45 50 / 0.55)",
-        "purpose": "White slips on the caramel ground."
-      },
-      {
-        "name": "slate-on-rose",
-        "value": "0 18px 28px -14px rgb(47 45 50 / 0.6)",
-        "purpose": "Ink testimonial slates on the rose ground."
-      },
-      {
-        "name": "play-badge",
-        "value": "0 8px 18px rgb(47 45 50 / 0.4)",
-        "purpose": "Caramel play badge over a photo."
+        "name": "badge-lift",
+        "value": "0 10px 24px -10px rgb(47 45 50 / 0.55)",
+        "purpose": "Pill badge floating over a photograph. The only shadow in the system."
       }
     ],
     "motion": [
       {
-        "name": "ease-out",
+        "name": "ease",
         "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "All transitions and the chalk-in reveal."
+        "purpose": "Expo-out easing for every state transition."
       },
       {
-        "name": "chalk-in",
-        "value": "1s clip-path wipe + blur 2px→0, staggered 0.28s per line, once on load",
-        "purpose": "Hero title and date lines written in; final state under reduced motion."
+        "name": "state",
+        "value": "0.2s",
+        "purpose": "Button, link and slot colour transitions."
       },
       {
-        "name": "leader-fill",
-        "value": "transform scaleX 0→1, 0.6s",
-        "purpose": "Violet bar (ground's --hot-fill) wiping across a menu leader on hover/focus."
+        "name": "nav-underline",
+        "value": "0.3s",
+        "purpose": "Caramel underline sweep on desktop nav hover."
       },
       {
-        "name": "control-state",
-        "value": "0.2s background-color, color, transform",
-        "purpose": "Button and pill hover/active."
+        "name": "marker-sweep",
+        "value": "0.9s, 0.15s delay",
+        "purpose": "Caramel highlighter sweeps under the marked word once on viewport entry."
+      },
+      {
+        "name": "marquee-loop",
+        "value": "38s linear infinite",
+        "purpose": "Facts band loop; pausable, static under reduced motion."
       }
     ],
     "breakpoints": [
@@ -240,12 +293,20 @@
         "value": "640px"
       },
       {
-        "name": "lg",
+        "name": "md",
         "value": "960px"
       },
       {
+        "name": "lg",
+        "value": "1100px"
+      },
+      {
         "name": "xl",
-        "value": "1200px"
+        "value": "1500px"
+      },
+      {
+        "name": "short-laptop",
+        "value": "(min-width: 960px) and (max-height: 820px)"
       }
     ]
   },
@@ -254,124 +315,144 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Primary action (violet, white text) on blush, white and caramel grounds; violet light on the ink ground.",
+      "description": "The action on blush and white grounds: violet with white label (6.68), hover violet-dark (8.95).",
       "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Je réserve ma place</a>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; border-radius: 8px; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.16,1,0.3,1), color 0.2s cubic-bezier(0.16,1,0.3,1), transform 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; } .ds-btn-primary { background: #8300e9; color: #ffffff; } .ds-btn-primary:hover { background: #6a00bd; }"
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-btn-primary { background: #8300e9; color: #ffffff; } .ds-btn-primary:hover { background: #6a00bd; } .ds-btn-primary:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; }"
     },
     {
-      "name": "Ink Button",
+      "name": "Light Button",
       "kind": "button",
-      "refersTo": "button-ink",
-      "description": "Action on caramel, white and sage grounds.",
-      "html": "<div style=\"background:#caa98a;padding:24px\"><a class=\"ds-btn-ink\" href=\"#\">Voir le programme</a></div>",
-      "css": ".ds-btn-ink { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; border-radius: 8px; background: #2f2d32; color: #f2dcd9; transition: background-color 0.2s, color 0.2s, transform 0.2s; } .ds-btn-ink:hover { background: #8300e9; color: #ffffff; } .ds-btn-ink:active { transform: translateY(1px); } .ds-btn-ink:focus-visible { outline: 3px solid #2f2d32; outline-offset: 3px; }"
+      "refersTo": "button-light",
+      "description": "The action on bordeaux and ink fields: white with violet label; hover blush with violet-dark label (6.82).",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-light\" href=\"#\">Je réserve ma place</a></div>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #5c1f2e; padding: 24px; border-radius: 20px; } .ds-btn-light { background: #ffffff; color: #8300e9; } .ds-btn-light:hover { background: #f2dcd9; color: #6a00bd; } .ds-btn-light:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
     },
     {
-      "name": "Line Button",
+      "name": "Outline Button",
       "kind": "button",
-      "refersTo": "button-line",
-      "description": "Secondary action on the caramel ground.",
-      "html": "<div style=\"background:#caa98a;padding:24px\"><a class=\"ds-btn-line\" href=\"#\">Réserver un appel découverte</a></div>",
-      "css": ".ds-btn-line { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 1.1rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; border: 2px solid #2f2d32; border-radius: 8px; background: transparent; color: #2f2d32; transition: background-color 0.2s, color 0.2s; } .ds-btn-line:hover { background: #2f2d32; color: #f2dcd9; } .ds-btn-line:focus-visible { outline: 3px solid #2f2d32; outline-offset: 3px; }"
+      "refersTo": "button-outline-on-bordeaux",
+      "description": "Secondary action beside a light button: border and label in the ground's foreground, fills and inverts on hover.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-outline\" href=\"#\">Réserver un appel découverte</a></div>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #5c1f2e; padding: 24px; border-radius: 20px; } .ds-btn-outline { background: transparent; border-color: #f2dcd9; color: #f2dcd9; } .ds-btn-outline:hover { background: #f2dcd9; color: #5c1f2e; } .ds-btn-outline:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
     },
     {
-      "name": "Chalk Link",
+      "name": "Placeholder Chip",
+      "kind": "chip",
+      "refersTo": "placeholder-chip",
+      "description": "Caramel pill marking content still to be supplied, beside a dashed underline.",
+      "html": "<span class=\"ds-fill\">Jeudi __ ____ 2026</span> <span class=\"ds-todo\">à compléter</span>",
+      "css": ".ds-fill { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; color: #5c1f2e; text-decoration: underline dashed #7a5045; text-decoration-thickness: 2px; text-underline-offset: 0.3em; } .ds-todo { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 3px 10px; border-radius: 999px; background: #caa98a; color: #5c1f2e; font: 700 0.7rem/1.3 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }"
+    },
+    {
+      "name": "Marked Headline",
       "kind": "custom",
-      "refersTo": "chalk-link",
-      "description": "Handwritten secondary link with a hand-drawn underline (SVG mask in currentColor), on blush.",
-      "html": "<div style=\"background:#f2dcd9;padding:24px\"><a class=\"ds-chalk-link\" href=\"#\">C'est quoi ?</a></div>",
-      "css": ".ds-chalk-link { display: inline-block; padding: 6px 2px 14px; font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.5rem; text-decoration: none; color: #2f2d32; position: relative; } .ds-chalk-link::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: currentColor; -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6 C20 2 34 9 56 5 S96 3 118 6' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E\") center / 100% 100% no-repeat; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6 C20 2 34 9 56 5 S96 3 118 6' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E\") center / 100% 100% no-repeat; } .ds-chalk-link:hover { color: #8300e9; } .ds-chalk-link:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; border-radius: 3px; }"
+      "refersTo": "headline",
+      "description": "Signature: uppercase statement with a struck word and one word under the caramel marker bar.",
+      "html": "<h2 class=\"ds-h\">Entreprendre <s>seule</s> <span class=\"ds-hl\">ensemble</span>.</h2>",
+      "css": ".ds-h { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; font-variation-settings: 'opsz' 96; text-transform: uppercase; font-size: 3rem; line-height: 0.92; letter-spacing: -0.02em; color: #5c1f2e; background: #f2dcd9; padding: 24px; margin: 0; } .ds-h s { color: #7a5045; text-decoration-color: #5c1f2e; text-decoration-thickness: 0.09em; } .ds-hl { background-image: linear-gradient(#caa98a, #caa98a); background-repeat: no-repeat; background-position: 0 88%; background-size: 100% 0.32em; padding-inline: 0.06em; margin-inline: -0.06em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }"
     },
     {
-      "name": "Menu Row",
-      "kind": "custom",
-      "refersTo": "menu-row",
-      "description": "Signature list item: item, dotted leader, right-aligned price; leader fills violet on hover/focus (on blush).",
-      "html": "<ul class=\"ds-menu\"><li class=\"ds-row\" tabindex=\"0\"><span>Petit déjeuner</span><i class=\"ds-lead\"></i><b>fait maison</b></li><li class=\"ds-row\" tabindex=\"0\"><span>Réseautage</span><i class=\"ds-lead\"></i><b>en douceur</b></li></ul>",
-      "css": ".ds-menu { list-style: none; margin: 0; padding: 24px; background: #f2dcd9; color: #2f2d32; font-family: 'Hanken Grotesk', system-ui, sans-serif; } .ds-row { display: grid; grid-template-columns: minmax(0, auto) minmax(24px, 1fr) auto; align-items: baseline; column-gap: 10px; padding: 7px 0; font-size: 1.15rem; font-weight: 600; outline: none; } .ds-lead { position: relative; height: 6px; translate: 0 -0.2em; background: radial-gradient(circle, currentColor 1.6px, transparent 2.1px) left center / 10px 6px repeat-x; } .ds-lead::after { content: ''; position: absolute; inset: 0; background: #8300e9; border-radius: 6px; transform: scaleX(0); transform-origin: left; transition: transform 0.6s cubic-bezier(0.16,1,0.3,1); } .ds-row:hover .ds-lead::after, .ds-row:focus-visible .ds-lead::after { transform: scaleX(1); } .ds-row b { font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.3rem; color: #7a5045; text-align: right; } .ds-row:hover b, .ds-row:focus-visible b { color: #8300e9; }"
-    },
-    {
-      "name": "Pinned Photo",
+      "name": "Colour Panel",
       "kind": "card",
-      "refersTo": "pinned-photo",
-      "description": "Real photo with white mat, violet pin head, slight tilt and ink-tinted drop shadow.",
-      "html": "<div style=\"background:#f2dcd9;padding:40px\"><figure class=\"ds-pin\"><div class=\"ds-pin-img\"></div></figure></div>",
-      "css": ".ds-pin { position: relative; margin: 0; width: 220px; background: #ffffff; padding: 8px; rotate: -3deg; box-shadow: 0 22px 34px -14px rgb(47 45 50 / 0.5), 0 4px 8px rgb(47 45 50 / 0.18); } .ds-pin::before { content: ''; position: absolute; top: -9px; left: 50%; width: 18px; height: 18px; margin-left: -9px; border-radius: 50%; background: #8300e9; box-shadow: 0 3px 5px rgb(47 45 50 / 0.4); z-index: 2; } .ds-pin-img { aspect-ratio: 3 / 4; background: #c7b6b4; }"
+      "refersTo": "colour-panel",
+      "description": "Bordeaux block with 28px corners inset on a light field; caramel-ink second line, hairline date ticket.",
+      "html": "<div class=\"ds-panel\"><h1 class=\"ds-panel__t\">Petit Dej <span>Entr'Femmes</span></h1><dl class=\"ds-ticket\"><div><dt>Date</dt><dd>Jeudi 12 mars</dd></div><div><dt>Lieu</dt><dd>Bordeaux</dd></div></dl></div>",
+      "css": ".ds-panel { background: #5c1f2e; color: #f2dcd9; border-radius: 28px; padding: 40px 32px; } .ds-panel__t { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 3.4rem; line-height: 0.88; letter-spacing: -0.02em; color: #f2dcd9; } .ds-panel__t span { display: block; color: #caa98a; } .ds-ticket { margin: 28px 0 0; display: grid; grid-template-columns: 1fr 1fr; border: 1.5px solid rgb(242 220 217 / 0.26); border-radius: 16px; } .ds-ticket div { padding: 14px 16px 16px; } .ds-ticket div + div { border-left: 1.5px solid rgb(242 220 217 / 0.26); } .ds-ticket dt { font: 700 0.72rem 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.14em; text-transform: uppercase; color: #caa98a; margin-bottom: 6px; } .ds-ticket dd { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.05rem; color: #f2dcd9; }"
     },
     {
-      "name": "Testimonial Slate",
+      "name": "Service Row",
       "kind": "card",
-      "refersTo": "testimonial-slate",
-      "description": "Small ink slate on the rose ground: blush quote, caramel handwritten name.",
-      "html": "<div style=\"background:#b78a7d;padding:32px\"><figure class=\"ds-slate\"><blockquote><p>« J'ai compris pourquoi ça ne fonctionnait pas. »</p></blockquote><figcaption>Marion, fondatrice e-shop thé et café</figcaption></figure></div>",
-      "css": ".ds-slate { margin: 0; max-width: 420px; background: #2f2d32; color: #f2dcd9; padding: 24px 22px 22px; rotate: -0.6deg; box-shadow: 0 18px 28px -14px rgb(47 45 50 / 0.6); font-family: 'Hanken Grotesk', system-ui, sans-serif; } .ds-slate blockquote { margin: 0; } .ds-slate p { margin: 0; font-size: 1.15rem; line-height: 1.5; } .ds-slate figcaption { margin-top: 14px; font-family: 'Patrick Hand', system-ui, sans-serif; font-weight: 700; font-size: 1.4rem; line-height: 1.15; color: #caa98a; }"
+      "refersTo": "service-row",
+      "description": "White 16px tile on blush: uppercase bordeaux name, rose-text detail on one baseline; coming-soon variant dashed.",
+      "html": "<ul class=\"ds-rows\"><li><span class=\"ds-rows__t\">Gestion administrative</span><span class=\"ds-rows__d\">au quotidien</span></li><li class=\"ds-rows__soon\"><span class=\"ds-rows__t\">Formalités INPI, changement d'adresse…</span></li></ul>",
+      "css": ".ds-rows { display: grid; gap: 10px; list-style: none; margin: 0; padding: 24px; background: #f2dcd9; } .ds-rows li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; background: #ffffff; border-radius: 16px; padding: 18px 22px; } .ds-rows__t { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.15rem; line-height: 1.1; color: #5c1f2e; } .ds-rows__d { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; color: #7a5045; font-weight: 600; } .ds-rows .ds-rows__soon { background: transparent; border: 2px dashed #7a5045; } .ds-rows__soon .ds-rows__t { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; text-transform: none; font-size: 1.05rem; color: #2f2d32; }"
+    },
+    {
+      "name": "Testimonial Pair",
+      "kind": "card",
+      "refersTo": "quote-card",
+      "description": "White quote card and bordeaux featured quote on the sage reviews band.",
+      "html": "<div class=\"ds-quotes\"><figure class=\"ds-quote ds-quote--lg\"><blockquote><p>« Valérie est très disponible, à l'écoute. »</p></blockquote><figcaption><b>Aline</b>coaching Instagram</figcaption></figure><figure class=\"ds-quote\"><blockquote><p>« J'ai compris pourquoi ça ne fonctionnait pas. »</p></blockquote><figcaption><b>Marion</b>fondatrice</figcaption></figure></div>",
+      "css": ".ds-quotes { display: grid; gap: 14px; background: #abb9a4; padding: 24px; } .ds-quote { margin: 0; background: #ffffff; border-radius: 20px; padding: 26px 24px 24px; display: flex; flex-direction: column; gap: 22px; } .ds-quote blockquote { margin: 0; } .ds-quote p { margin: 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 1.05rem; line-height: 1.55; color: #2f2d32; } .ds-quote figcaption { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 0.92rem; color: #48464b; } .ds-quote figcaption b { display: block; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.3rem; color: #5c1f2e; } .ds-quote--lg { background: #5c1f2e; } .ds-quote--lg p { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 600; font-size: 1.4rem; line-height: 1.25; color: #f2dcd9; } .ds-quote--lg figcaption { color: #d9b3ab; } .ds-quote--lg figcaption b { color: #caa98a; }"
     },
     {
       "name": "Header Nav",
       "kind": "nav",
-      "refersTo": "nav",
-      "description": "Sticky blush top bar: brand, plain links hovering violet with rose underline, violet pill CTA.",
-      "html": "<header class=\"ds-top\"><span class=\"ds-brand\">V2M Secrétaire</span><nav class=\"ds-nav\"><a href=\"#\">Le Petit Dej</a><a href=\"#\">Instagram</a><a href=\"#\">Avis</a></nav><a class=\"ds-pill\" href=\"#\">Appel découverte</a></header>",
-      "css": ".ds-top { display: flex; align-items: center; gap: 28px; min-height: 64px; padding: 0 32px; background: #f2dcd9; color: #2f2d32; border-bottom: 1px solid rgb(47 45 50 / 0.14); } .ds-brand { font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 900; font-stretch: 80%; font-size: 1.25rem; text-transform: uppercase; } .ds-nav { display: flex; gap: 22px; margin-left: auto; } .ds-nav a { color: inherit; text-decoration: none; padding: 6px 0; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.02em; text-underline-offset: 6px; } .ds-nav a:hover { color: #8300e9; text-decoration: underline; text-decoration-color: #b78a7d; text-decoration-thickness: 3px; } .ds-nav a:focus-visible, .ds-pill:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; } .ds-pill { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; background: #8300e9; color: #ffffff; font-family: 'Archivo', 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 85%; font-size: 0.85rem; letter-spacing: 0.02em; text-transform: uppercase; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; } .ds-pill:hover { background: #6a00bd; }"
+      "refersTo": "",
+      "description": "Desktop nav: uppercase tracked Hanken links, caramel underline sweeps in on hover; violet small button.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Le Petit Dej</a><a href=\"#\">Instagram</a><a href=\"#\">Services</a><a class=\"ds-nav__cta\" href=\"#\">Appel découverte</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 26px; background: #f2dcd9; padding: 16px 24px; border-bottom: 1px solid rgb(92 31 46 / 0.22); } .ds-nav a { padding: 6px 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: #2f2d32; background: linear-gradient(#caa98a, #caa98a) no-repeat 0 100% / 0% 3px; transition: background-size 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s; } .ds-nav a:hover { color: #5c1f2e; background-size: 100% 3px; } .ds-nav a:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; border-radius: 4px; } .ds-nav .ds-nav__cta { margin-left: auto; min-height: 40px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 6px; background: #8300e9; color: #ffffff; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-size: 0.78rem; letter-spacing: 0.06em; } .ds-nav .ds-nav__cta:hover { background: #6a00bd; color: #ffffff; }"
+    },
+    {
+      "name": "Facts Marquee",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Signature: caramel band of uppercase bordeaux facts with a bordeaux pause toggle.",
+      "html": "<div class=\"ds-mq\"><button class=\"ds-mq__btn\" aria-label=\"Pause\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\"><path d=\"M9 6v12M15 6v12\"/></svg></button><ul><li>Un Petit Dej chaque mois</li><li>Instagram autonome en 4 semaines</li></ul></div>",
+      "css": ".ds-mq { position: relative; display: flex; overflow: hidden; background: #caa98a; color: #5c1f2e; padding: 16px 0 16px 64px; } .ds-mq__btn { position: absolute; left: 0; top: 0; bottom: 0; width: 56px; background: #5c1f2e; color: #caa98a; border: 0; font-weight: 800; display: grid; place-items: center; cursor: pointer; } .ds-mq__btn:focus-visible { outline: 3px solid #8300e9; outline-offset: -4px; } .ds-mq ul { display: flex; list-style: none; margin: 0; padding: 0; } .ds-mq li { white-space: nowrap; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.15rem; letter-spacing: 0.01em; } .ds-mq li { display: flex; align-items: center; } .ds-mq li::after { content: ''; width: 20px; height: 20px; margin: 0 26px; background: #5c1f2e; -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; }"
     }
   ],
   "narrative": {
-    "northStar": "L'Ardoise du Jour",
-    "overview": "The site is still a neighbourhood café's menu board, but written in the brand's own inks rather than on black slate. The logo's blush frame is the default ground, set type sits on it in a warm plum-grey ink, and a hand-drawn script appears only where someone would chalk a note: a price, a step number, a name under a quote, an underline under a link. The logo's terracotta lettering inks the second hero line and the handwritten notes. Grounds never sprinkle: each band takes one colour from the logo or the live site (blush, caramel, ink, white, rose, sage) and owns it edge to edge. Violet, the live site's button colour, is spent on action only.\n\nMenu grammar organises all content. Lists are menu rows: the item on the left, a dotted leader in the middle, and the \"price\" on the right (a week number, a step, a short benefit). On hover or focus the leader fills with the band's hot colour (violet on light grounds). Physical objects pinned to the wall add depth: white-bordered photos held by a violet pin head and tilted a few degrees, paper slips, a round violet stamp, and small ink slates propped at an angle. Density is generous on phone and opens into asymmetric 7/5 and 5/7 splits on desktop.\n\nMotion is limited to the board being written once. The hero title and the date lines wipe in as chalk on load, and the leaders fill on interaction. With reduced motion, the final state shows immediately.",
+    "northStar": "Franc-Parler",
+    "overview": "The site speaks like a confident consultant's poster: short uppercase statements set big and tight, laid on whole blocks of colour rather than on soft cards. Bordeaux, the logo's vieux rose deepened, is the dominant field; blush is the light field; caramel is the highlighter that marks the one word each claim turns on. The page moves from block to block (blush, bordeaux, caramel band, white, blush, sage, white, caramel, white, ink) so each section reads as a new poster, not as a continuation of the last.\n\nDensity is low and loud. Headlines run at poster scale (up to 6rem) with line-height under 1, body copy stays in a calm humanist sans at reading size, and the gap between the two is the point: the statement shouts, the explanation talks. Colour does the structuring; there is almost no ornament beyond hairline rules, numbered tiles and the marker sweep.\n\nThe world refuses the pastel coach template (script headline, blush everywhere, three equal soft cards) and the earlier café-slate vocabulary (chalk handwriting, Polaroids, dotted price leaders). The direction was pinned by the client with comcassie.fr as a reference, not a template; the palette stays the brand's own.",
     "keyCharacteristics": [
-      "Blush ground with plum-grey ink type; each band owns one brand colour edge to edge",
-      "Bold condensed uppercase grotesque for display, with one handwritten face reserved for short annotations",
-      "Menu rows with dotted leaders and right-aligned \"prices\" carry all list content",
-      "Pinned, slightly rotated paper objects with soft, ink-tinted drop shadows",
-      "Violet reserved for action: buttons, header pill, leader fill, pin heads, stamp, selection"
+      "Whole colour blocks per section; bordeaux is the dominant field, blush the light field.",
+      "Bricolage Grotesque 800 uppercase statements at poster scale, tight leading (0.88 to 0.92).",
+      "One highlighted word per heading: a caramel marker bar swept in once, or the word set in caramel ink on bordeaux.",
+      "Strikethrough-then-replace headlines (a struck word in rose text, the replacement highlighted).",
+      "Large rounded colour panels (28px) against near-square buttons (6px).",
+      "Violet is action only.",
+      "A tone-on-tone ghost word behind the hero and a scrolling band of true facts."
     ],
     "rules": [
       {
-        "name": "The Whole-Region Rule",
-        "body": "A brand colour is either a full-bleed ground for a band or a small accent. It never appears as a tinted panel or a scattered patch on another colour.",
+        "name": "The Violet Acts Rule",
+        "body": "Violet appears only on things you can press or focus: buttons, the mobile nav hover, focus rings. Never on a heading, a fill or a decoration. On bordeaux the action inverts to a white button with a violet label.",
         "section": "colors"
       },
       {
-        "name": "The Violet-Is-Action Rule",
-        "body": "Violet marks what can be done (buttons, pill, leader fill, focus) plus the two pinned objects that echo it (pin heads, stamp). It never sets running text on caramel or sage (below 4.5:1); hover text there switches to ink-strong.",
+        "name": "The Ground Variable Rule",
+        "body": "Components never hard-code their colour; they read the ground variables (`--bg`, `--fg`, `--fg-dim`, `--head`, `--accent`, `--line`, `--focus`). A light ground maps them to blush / ink-strong / ink / bordeaux / rose-text / violet; a bordeaux field remaps them to bordeaux / blush / blush-dim / blush / caramel / caramel. A new section changes ground by remapping, not by restyling its children.",
         "section": "colors"
       },
       {
-        "name": "The Ground Variables Rule",
-        "body": "Every band sets `--bg`, `--fg`, `--fg-dim`, `--accent`, `--hot`, `--hot-fill` and `--focus`. Components read those variables and do not hard-code colour. Focus ring: violet on blush/white, caramel on ink, ink on caramel/sage, ink-deep on rose (all ≥ 3:1).",
+        "name": "The Logo Rose Is Not Ink Rule",
+        "body": "Vieux rose (#b78a7d) fails as text on every light ground; use Rose Text (#7a5045) wherever the rose voice must be read.",
         "section": "colors"
       },
       {
-        "name": "The Short Chalk Rule",
-        "body": "The handwritten face never sets a paragraph. It is limited to six words or so: a price, a name, a step, a note.",
+        "name": "The Statement Rule",
+        "body": "Anything that makes a claim is uppercase Bricolage 800 with leading at or under 1.1; anything that explains is sentence-case Hanken. Do not set explanation copy in the display face.",
         "section": "typography"
       },
       {
-        "name": "The Narrow Uppercase Rule",
-        "body": "Display and labels always use condensed width (78–85%) and uppercase. Width is set with `font-stretch`, never by faking letter-spacing.",
+        "name": "The One Marked Word Rule",
+        "body": "Each headline carries at most one emphasised word: a caramel marker bar (0.32em tall at 88% of the line, swept in once on entry) on light and caramel grounds, or the word set in caramel ink on bordeaux. Inside the caramel slogan band the marker turns blush.",
         "section": "typography"
       },
       {
-        "name": "The Pinned-Only Rule",
-        "body": "Only a physical object (a photo, slip, slate or play badge) casts a shadow. Controls and bands stay flat.",
+        "name": "The Block Not Shadow Rule",
+        "body": "Separate things by changing the ground colour or drawing a hairline, never by raising a card.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do give each band one ground (blush, caramel, ink, white, rose or sage) and let components read the ground variables.",
-      "Do write every list as a menu row with a dotted leader and a right-aligned price.",
-      "Do keep the handwritten face to short annotations (1.25–1.6rem).",
-      "Do pin real photos with a white mat, violet pin head, tilt of 3.5° or less and the pinned shadow.",
-      "Do show missing content as a visibly marked placeholder (dashed terracotta fill line, \"à compléter\" chip, dashed video slot).",
-      "Do show the final state with no animation under `prefers-reduced-motion`."
+      "Do give each section a whole ground (blush, bordeaux, white, sage, caramel or ink-strong) and alternate them so neighbours contrast.",
+      "Do state claims in uppercase Bricolage Grotesque 800 with leading of 0.88 to 0.92 and mark exactly one word with the caramel marker or caramel ink.",
+      "Do switch grounds by remapping the ground variables; on bordeaux and ink fields use blush text, blush-dim secondary text (6.50 on bordeaux) and caramel accents (5.65).",
+      "Do keep violet on actions only: violet button on light grounds, white button with violet label on dark fields.",
+      "Do use Rose Text (#7a5045) for any rose-coloured text; keep Vieux Rose (#b78a7d) for rings and ornament.",
+      "Do mark unfinished content visibly with the caramel placeholder chip and a dashed underline or border.",
+      "Do honour reduced motion: final marker state, static wrapped marquee, no transitions."
     ],
     "donts": [
-      "Don't use tints or opacity washes of violet or rose. Ink at reduced alpha (hairlines, dotted dividers, shadows) is the only translucent colour.",
-      "Don't set violet text on caramel or sage, or rose #b78a7d as text on light grounds. Use ink-strong or rose-text instead.",
-      "Don't bring back the old slate/sunflower/fluoro-pink palette: it is not the brand.",
-      "Don't put shadows on buttons, bands or the header.",
-      "Don't set paragraphs or headlines in the handwritten face.",
-      "Don't lay offers out as a row of equal centred cards. They are courses on a menu."
+      "Don't set the pastel coach template: script headlines, blush on every section, three equal soft cards.",
+      "Don't bring back the café-slate vocabulary: chalk handwriting, Polaroid frames, dotted price leaders.",
+      "Don't use violet for headings, fills or decoration.",
+      "Don't set Vieux Rose (#b78a7d) or Ghost Blush (#e9c8c2) as readable text.",
+      "Don't separate content with shadows; use a ground change or a hairline.",
+      "Don't mark more than one word per headline.",
+      "Don't extend sage beyond the reviews band."
     ]
   }
 }

@@ -4,7 +4,7 @@ Maquettes statiques (HTML/CSS) de la nouvelle page d'accueil de https://v2m-secr
 
 | Version | Fichier | Univers |
 |---|---|---|
-| V1 « L'Ardoise » | `index.html` | Ardoise de café, jaune et rose vif, capitales |
+| V1 « L'Ardoise » | `index.html` | Ardoise de café aux couleurs de la marque (rose poudré, terracotta, caramel, CTA violet), capitales condensées |
 | V2 « Sobre » | `v2/index.html` | Couleurs du site actuel, Poppins, épuré |
 | V3 « Façon Instagram » | `v3/index.html` | Site classique avec codes Instagram (story, carrousel, commentaires) |
 

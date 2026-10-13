@@ -1,22 +1,37 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-11T10:57:33+00:00",
+  "generatedAt": "2026-10-13T06:47:57+00:00",
   "title": "Design System: V2M Secrétaire",
   "extensions": {
     "colorMeta": {
-      "bordeaux": {
+      "rose": {
         "role": "primary",
-        "displayName": "Bordeaux",
-        "canonical": "#5c1f2e",
+        "displayName": "Vieux Rose",
+        "canonical": "#b78a7d",
         "tonalRamp": [
-          "oklch(15% 0.09 10)",
-          "oklch(25% 0.09 10)",
-          "oklch(35% 0.09 10)",
-          "oklch(45% 0.09 10)",
-          "oklch(57% 0.09 10)",
-          "oklch(69% 0.09 10)",
-          "oklch(82% 0.09 10)",
-          "oklch(95% 0.09 10)"
+          "oklch(15% 0.05 40)",
+          "oklch(25% 0.05 40)",
+          "oklch(35% 0.05 40)",
+          "oklch(45% 0.05 40)",
+          "oklch(57% 0.05 40)",
+          "oklch(69% 0.05 40)",
+          "oklch(82% 0.05 40)",
+          "oklch(95% 0.05 40)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "canonical": "#48464b",
+        "tonalRamp": [
+          "oklch(15% 0.008 300)",
+          "oklch(25% 0.008 300)",
+          "oklch(35% 0.008 300)",
+          "oklch(45% 0.008 300)",
+          "oklch(57% 0.008 300)",
+          "oklch(69% 0.008 300)",
+          "oklch(82% 0.008 300)",
+          "oklch(95% 0.008 300)"
         ]
       },
       "caramel": {
@@ -32,21 +47,6 @@
           "oklch(69% 0.06 65)",
           "oklch(82% 0.06 65)",
           "oklch(95% 0.06 65)"
-        ]
-      },
-      "rose": {
-        "role": "secondary",
-        "displayName": "Vieux Rose (logo lettering)",
-        "canonical": "#b78a7d",
-        "tonalRamp": [
-          "oklch(15% 0.05 40)",
-          "oklch(25% 0.05 40)",
-          "oklch(35% 0.05 40)",
-          "oklch(45% 0.05 40)",
-          "oklch(57% 0.05 40)",
-          "oklch(69% 0.05 40)",
-          "oklch(82% 0.05 40)",
-          "oklch(95% 0.05 40)"
         ]
       },
       "rose-text": {
@@ -124,66 +124,6 @@
           "oklch(95% 0.03 25)"
         ]
       },
-      "blush-dim": {
-        "role": "neutral",
-        "displayName": "Blush Dim",
-        "canonical": "#d9b3ab",
-        "tonalRamp": [
-          "oklch(15% 0.05 25)",
-          "oklch(25% 0.05 25)",
-          "oklch(35% 0.05 25)",
-          "oklch(45% 0.05 25)",
-          "oklch(57% 0.05 25)",
-          "oklch(69% 0.05 25)",
-          "oklch(82% 0.05 25)",
-          "oklch(95% 0.05 25)"
-        ]
-      },
-      "blush-ghost": {
-        "role": "neutral",
-        "displayName": "Ghost Blush",
-        "canonical": "#e9c8c2",
-        "tonalRamp": [
-          "oklch(15% 0.04 25)",
-          "oklch(25% 0.04 25)",
-          "oklch(35% 0.04 25)",
-          "oklch(45% 0.04 25)",
-          "oklch(57% 0.04 25)",
-          "oklch(69% 0.04 25)",
-          "oklch(82% 0.04 25)",
-          "oklch(95% 0.04 25)"
-        ]
-      },
-      "ink-strong": {
-        "role": "neutral",
-        "displayName": "Ink Strong",
-        "canonical": "#2f2d32",
-        "tonalRamp": [
-          "oklch(15% 0.008 300)",
-          "oklch(25% 0.008 300)",
-          "oklch(35% 0.008 300)",
-          "oklch(45% 0.008 300)",
-          "oklch(57% 0.008 300)",
-          "oklch(69% 0.008 300)",
-          "oklch(82% 0.008 300)",
-          "oklch(95% 0.008 300)"
-        ]
-      },
-      "ink": {
-        "role": "neutral",
-        "displayName": "Ink",
-        "canonical": "#48464b",
-        "tonalRamp": [
-          "oklch(15% 0.008 300)",
-          "oklch(25% 0.008 300)",
-          "oklch(35% 0.008 300)",
-          "oklch(45% 0.008 300)",
-          "oklch(57% 0.008 300)",
-          "oklch(69% 0.008 300)",
-          "oklch(82% 0.008 300)",
-          "oklch(95% 0.008 300)"
-        ]
-      },
       "white": {
         "role": "neutral",
         "displayName": "White",
@@ -197,21 +137,6 @@
           "oklch(69% 0 0)",
           "oklch(82% 0 0)",
           "oklch(95% 0 0)"
-        ]
-      },
-      "ink-dim": {
-        "role": "neutral",
-        "displayName": "Ink Dim",
-        "canonical": "#c7b6b4",
-        "tonalRamp": [
-          "oklch(15% 0.02 25)",
-          "oklch(25% 0.02 25)",
-          "oklch(35% 0.02 25)",
-          "oklch(45% 0.02 25)",
-          "oklch(57% 0.02 25)",
-          "oklch(69% 0.02 25)",
-          "oklch(82% 0.02 25)",
-          "oklch(95% 0.02 25)"
         ]
       }
     },
@@ -256,7 +181,7 @@
     "shadows": [
       {
         "name": "badge-lift",
-        "value": "0 10px 24px -10px rgb(47 45 50 / 0.55)",
+        "value": "0 10px 24px -10px rgb(72 70 75 / 0.55)",
         "purpose": "Pill badge floating over a photograph. The only shadow in the system."
       }
     ],
@@ -323,101 +248,106 @@
       "name": "Light Button",
       "kind": "button",
       "refersTo": "button-light",
-      "description": "The action on bordeaux and ink fields: white with violet label; hover blush with violet-dark label (6.82).",
+      "description": "The action on ink and rose-text fields: white with violet label (6.68); hover blush with violet-dark label (6.82).",
       "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-light\" href=\"#\">Je réserve ma place</a></div>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #5c1f2e; padding: 24px; border-radius: 20px; } .ds-btn-light { background: #ffffff; color: #8300e9; } .ds-btn-light:hover { background: #f2dcd9; color: #6a00bd; } .ds-btn-light:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #48464b; padding: 24px; border-radius: 20px; } .ds-btn-light { background: #ffffff; color: #8300e9; } .ds-btn-light:hover { background: #f2dcd9; color: #6a00bd; } .ds-btn-light:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
     },
     {
       "name": "Outline Button",
       "kind": "button",
-      "refersTo": "button-outline-on-bordeaux",
-      "description": "Secondary action beside a light button: border and label in the ground's foreground, fills and inverts on hover.",
+      "refersTo": "button-outline-on-ink",
+      "description": "Secondary action beside a light button on the ink field: border and label in blush, fills and inverts on hover.",
       "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-outline\" href=\"#\">Réserver un appel découverte</a></div>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #5c1f2e; padding: 24px; border-radius: 20px; } .ds-btn-outline { background: transparent; border-color: #f2dcd9; color: #f2dcd9; } .ds-btn-outline:hover { background: #f2dcd9; color: #5c1f2e; } .ds-btn-outline:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 6px; border: 2px solid transparent; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; line-height: 1.15; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:active { transform: translateY(1px); } .ds-ground { background: #48464b; padding: 24px; border-radius: 20px; } .ds-btn-outline { background: transparent; border-color: #f2dcd9; color: #f2dcd9; } .ds-btn-outline:hover { background: #f2dcd9; color: #48464b; } .ds-btn-outline:focus-visible { outline: 3px solid #caa98a; outline-offset: 3px; }"
     },
     {
       "name": "Placeholder Chip",
       "kind": "chip",
       "refersTo": "placeholder-chip",
-      "description": "Caramel pill marking content still to be supplied, beside a dashed underline.",
+      "description": "White pill with a vieux rose border and rose-text label (6.86) marking content still to be supplied, beside a dashed vieux rose underline.",
       "html": "<span class=\"ds-fill\">Jeudi __ ____ 2026</span> <span class=\"ds-todo\">à compléter</span>",
-      "css": ".ds-fill { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; color: #5c1f2e; text-decoration: underline dashed #7a5045; text-decoration-thickness: 2px; text-underline-offset: 0.3em; } .ds-todo { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 3px 10px; border-radius: 999px; background: #caa98a; color: #5c1f2e; font: 700 0.7rem/1.3 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }"
+      "css": ".ds-fill { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; color: #48464b; text-decoration: underline dashed #b78a7d; text-decoration-thickness: 2px; text-underline-offset: 0.3em; } .ds-todo { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 3px 10px; border-radius: 999px; background: #ffffff; color: #7a5045; border: 1px solid #b78a7d; font: 700 0.7rem/1.3 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }"
     },
     {
       "name": "Marked Headline",
       "kind": "custom",
       "refersTo": "headline",
-      "description": "Signature: uppercase statement with a struck word and one word under the caramel marker bar.",
+      "description": "Signature: uppercase rose-text statement (5.23 on blush) with a struck word and one word under the caramel marker bar.",
       "html": "<h2 class=\"ds-h\">Entreprendre <s>seule</s> <span class=\"ds-hl\">ensemble</span>.</h2>",
-      "css": ".ds-h { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; font-variation-settings: 'opsz' 96; text-transform: uppercase; font-size: 3rem; line-height: 0.92; letter-spacing: -0.02em; color: #5c1f2e; background: #f2dcd9; padding: 24px; margin: 0; } .ds-h s { color: #7a5045; text-decoration-color: #5c1f2e; text-decoration-thickness: 0.09em; } .ds-hl { background-image: linear-gradient(#caa98a, #caa98a); background-repeat: no-repeat; background-position: 0 88%; background-size: 100% 0.32em; padding-inline: 0.06em; margin-inline: -0.06em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }"
+      "css": ".ds-h { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; font-variation-settings: 'opsz' 96; text-transform: uppercase; font-size: 3rem; line-height: 0.92; letter-spacing: -0.02em; color: #7a5045; background: #f2dcd9; padding: 24px; margin: 0; } .ds-h s { color: #7a5045; text-decoration-color: #48464b; text-decoration-thickness: 0.09em; } .ds-hl { background-image: linear-gradient(#caa98a, #caa98a); background-repeat: no-repeat; background-position: 0 88%; background-size: 100% 0.32em; padding-inline: 0.06em; margin-inline: -0.06em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }"
     },
     {
       "name": "Colour Panel",
       "kind": "card",
-      "refersTo": "colour-panel",
-      "description": "Bordeaux block with 28px corners inset on a light field; caramel-ink second line, hairline date ticket.",
+      "refersTo": "hero-panel",
+      "description": "Vieux rose hero block with 28px corners inset on blush: white display (large, 3.02), ink second line (large, 3.08), white date ticket carrying all small text (rose-text labels, ink values).",
       "html": "<div class=\"ds-panel\"><h1 class=\"ds-panel__t\">Petit Dej <span>Entr'Femmes</span></h1><dl class=\"ds-ticket\"><div><dt>Date</dt><dd>Jeudi 12 mars</dd></div><div><dt>Lieu</dt><dd>Bordeaux</dd></div></dl></div>",
-      "css": ".ds-panel { background: #5c1f2e; color: #f2dcd9; border-radius: 28px; padding: 40px 32px; } .ds-panel__t { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 3.4rem; line-height: 0.88; letter-spacing: -0.02em; color: #f2dcd9; } .ds-panel__t span { display: block; color: #caa98a; } .ds-ticket { margin: 28px 0 0; display: grid; grid-template-columns: 1fr 1fr; border: 1.5px solid rgb(242 220 217 / 0.26); border-radius: 16px; } .ds-ticket div { padding: 14px 16px 16px; } .ds-ticket div + div { border-left: 1.5px solid rgb(242 220 217 / 0.26); } .ds-ticket dt { font: 700 0.72rem 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.14em; text-transform: uppercase; color: #caa98a; margin-bottom: 6px; } .ds-ticket dd { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.05rem; color: #f2dcd9; }"
+      "css": ".ds-panel { background: #b78a7d; color: #ffffff; border-radius: 28px; padding: 40px 32px; } .ds-panel__t { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 3.4rem; line-height: 0.88; letter-spacing: -0.02em; color: #ffffff; } .ds-panel__t span { display: block; color: #48464b; } .ds-ticket { margin: 28px 0 0; display: grid; grid-template-columns: 1fr 1fr; background: #ffffff; border-radius: 16px; } .ds-ticket div { padding: 14px 16px 16px; } .ds-ticket div + div { border-left: 1px solid rgb(122 80 69 / 0.22); } .ds-ticket dt { font: 700 0.72rem 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.14em; text-transform: uppercase; color: #7a5045; margin-bottom: 6px; } .ds-ticket dd { margin: 0; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.05rem; color: #48464b; }"
     },
     {
       "name": "Service Row",
       "kind": "card",
       "refersTo": "service-row",
-      "description": "White 16px tile on blush: uppercase bordeaux name, rose-text detail on one baseline; coming-soon variant dashed.",
+      "description": "White 16px tile on blush: uppercase rose-text name (6.86), ink detail on one baseline; coming-soon variant with a dashed vieux rose border.",
       "html": "<ul class=\"ds-rows\"><li><span class=\"ds-rows__t\">Gestion administrative</span><span class=\"ds-rows__d\">au quotidien</span></li><li class=\"ds-rows__soon\"><span class=\"ds-rows__t\">Formalités INPI, changement d'adresse…</span></li></ul>",
-      "css": ".ds-rows { display: grid; gap: 10px; list-style: none; margin: 0; padding: 24px; background: #f2dcd9; } .ds-rows li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; background: #ffffff; border-radius: 16px; padding: 18px 22px; } .ds-rows__t { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.15rem; line-height: 1.1; color: #5c1f2e; } .ds-rows__d { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; color: #7a5045; font-weight: 600; } .ds-rows .ds-rows__soon { background: transparent; border: 2px dashed #7a5045; } .ds-rows__soon .ds-rows__t { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; text-transform: none; font-size: 1.05rem; color: #2f2d32; }"
+      "css": ".ds-rows { display: grid; gap: 10px; list-style: none; margin: 0; padding: 24px; background: #f2dcd9; } .ds-rows li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; background: #ffffff; border-radius: 16px; padding: 18px 22px; } .ds-rows__t { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.15rem; line-height: 1.1; color: #7a5045; } .ds-rows__d { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; color: #48464b; font-weight: 600; } .ds-rows .ds-rows__soon { background: transparent; border: 2px dashed #b78a7d; } .ds-rows__soon .ds-rows__t { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; text-transform: none; font-size: 1.05rem; color: #48464b; }"
     },
     {
       "name": "Testimonial Pair",
       "kind": "card",
       "refersTo": "quote-card",
-      "description": "White quote card and bordeaux featured quote on the sage reviews band.",
+      "description": "White quote card (ink body, rose-text name) and ink featured quote (blush words 7.11, caramel name at large size 4.24) on the sage reviews band (ink 4.53).",
       "html": "<div class=\"ds-quotes\"><figure class=\"ds-quote ds-quote--lg\"><blockquote><p>« Valérie est très disponible, à l'écoute. »</p></blockquote><figcaption><b>Aline</b>coaching Instagram</figcaption></figure><figure class=\"ds-quote\"><blockquote><p>« J'ai compris pourquoi ça ne fonctionnait pas. »</p></blockquote><figcaption><b>Marion</b>fondatrice</figcaption></figure></div>",
-      "css": ".ds-quotes { display: grid; gap: 14px; background: #abb9a4; padding: 24px; } .ds-quote { margin: 0; background: #ffffff; border-radius: 20px; padding: 26px 24px 24px; display: flex; flex-direction: column; gap: 22px; } .ds-quote blockquote { margin: 0; } .ds-quote p { margin: 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 1.05rem; line-height: 1.55; color: #2f2d32; } .ds-quote figcaption { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 0.92rem; color: #48464b; } .ds-quote figcaption b { display: block; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.3rem; color: #5c1f2e; } .ds-quote--lg { background: #5c1f2e; } .ds-quote--lg p { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 600; font-size: 1.4rem; line-height: 1.25; color: #f2dcd9; } .ds-quote--lg figcaption { color: #d9b3ab; } .ds-quote--lg figcaption b { color: #caa98a; }"
+      "css": ".ds-quotes { display: grid; gap: 14px; background: #abb9a4; padding: 24px; } .ds-quote { margin: 0; background: #ffffff; border-radius: 20px; padding: 26px 24px 24px; display: flex; flex-direction: column; gap: 22px; } .ds-quote blockquote { margin: 0; } .ds-quote p { margin: 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 1.05rem; line-height: 1.55; color: #48464b; } .ds-quote figcaption { font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 0.92rem; color: #48464b; } .ds-quote figcaption b { display: block; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.3rem; color: #7a5045; } .ds-quote--lg { background: #48464b; } .ds-quote--lg p { font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 600; font-size: 1.4rem; line-height: 1.25; color: #f2dcd9; } .ds-quote--lg figcaption { color: #f2dcd9; } .ds-quote--lg figcaption b { color: #caa98a; }"
     },
     {
       "name": "Header Nav",
       "kind": "nav",
       "refersTo": "",
-      "description": "Desktop nav: uppercase tracked Hanken links, caramel underline sweeps in on hover; violet small button.",
+      "description": "Desktop nav: uppercase tracked Hanken links in ink, rose-text on hover with a caramel underline sweep; violet small button.",
       "html": "<nav class=\"ds-nav\"><a href=\"#\">Le Petit Dej</a><a href=\"#\">Instagram</a><a href=\"#\">Services</a><a class=\"ds-nav__cta\" href=\"#\">Appel découverte</a></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; gap: 26px; background: #f2dcd9; padding: 16px 24px; border-bottom: 1px solid rgb(92 31 46 / 0.22); } .ds-nav a { padding: 6px 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: #2f2d32; background: linear-gradient(#caa98a, #caa98a) no-repeat 0 100% / 0% 3px; transition: background-size 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s; } .ds-nav a:hover { color: #5c1f2e; background-size: 100% 3px; } .ds-nav a:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; border-radius: 4px; } .ds-nav .ds-nav__cta { margin-left: auto; min-height: 40px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 6px; background: #8300e9; color: #ffffff; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-size: 0.78rem; letter-spacing: 0.06em; } .ds-nav .ds-nav__cta:hover { background: #6a00bd; color: #ffffff; }"
+      "css": ".ds-nav { display: flex; align-items: center; gap: 26px; background: #f2dcd9; padding: 16px 24px; border-bottom: 1px solid rgb(122 80 69 / 0.24); } .ds-nav a { padding: 6px 0; font-family: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: #48464b; background: linear-gradient(#caa98a, #caa98a) no-repeat 0 100% / 0% 3px; transition: background-size 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s; } .ds-nav a:hover { color: #7a5045; background-size: 100% 3px; } .ds-nav a:focus-visible { outline: 3px solid #8300e9; outline-offset: 3px; border-radius: 4px; } .ds-nav .ds-nav__cta { margin-left: auto; min-height: 40px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 6px; background: #8300e9; color: #ffffff; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-size: 0.78rem; letter-spacing: 0.06em; } .ds-nav .ds-nav__cta:hover { background: #6a00bd; color: #ffffff; }"
     },
     {
       "name": "Facts Marquee",
       "kind": "custom",
       "refersTo": "",
-      "description": "Signature: caramel band of uppercase bordeaux facts with a bordeaux pause toggle.",
+      "description": "Signature: caramel band of uppercase ink facts at large size (4.24) with white asterisks and an ink pause toggle.",
       "html": "<div class=\"ds-mq\"><button class=\"ds-mq__btn\" aria-label=\"Pause\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\"><path d=\"M9 6v12M15 6v12\"/></svg></button><ul><li>Un Petit Dej chaque mois</li><li>Instagram autonome en 4 semaines</li></ul></div>",
-      "css": ".ds-mq { position: relative; display: flex; overflow: hidden; background: #caa98a; color: #5c1f2e; padding: 16px 0 16px 64px; } .ds-mq__btn { position: absolute; left: 0; top: 0; bottom: 0; width: 56px; background: #5c1f2e; color: #caa98a; border: 0; font-weight: 800; display: grid; place-items: center; cursor: pointer; } .ds-mq__btn:focus-visible { outline: 3px solid #8300e9; outline-offset: -4px; } .ds-mq ul { display: flex; list-style: none; margin: 0; padding: 0; } .ds-mq li { white-space: nowrap; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.15rem; letter-spacing: 0.01em; } .ds-mq li { display: flex; align-items: center; } .ds-mq li::after { content: ''; width: 20px; height: 20px; margin: 0 26px; background: #5c1f2e; -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; }"
+      "css": ".ds-mq { position: relative; display: flex; overflow: hidden; background: #caa98a; color: #48464b; padding: 16px 0 16px 64px; } .ds-mq__btn { position: absolute; left: 0; top: 0; bottom: 0; width: 56px; background: #48464b; color: #caa98a; border: 0; font-weight: 800; display: grid; place-items: center; cursor: pointer; } .ds-mq__btn:focus-visible { outline: 3px solid #8300e9; outline-offset: -4px; } .ds-mq ul { display: flex; list-style: none; margin: 0; padding: 0; } .ds-mq li { white-space: nowrap; font-family: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif; font-weight: 800; text-transform: uppercase; font-size: 1.2rem; letter-spacing: 0.01em; } .ds-mq li { display: flex; align-items: center; } .ds-mq li::after { content: ''; width: 20px; height: 20px; margin: 0 26px; background: #ffffff; -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1v18M2.2 5.5l15.6 9M2.2 14.5l15.6-9' stroke='black' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E\") center / contain no-repeat; }"
     }
   ],
   "narrative": {
     "northStar": "Franc-Parler",
-    "overview": "The site speaks like a confident consultant's poster: short uppercase statements set big and tight, laid on whole blocks of colour rather than on soft cards. Bordeaux, the logo's vieux rose deepened, is the dominant field; blush is the light field; caramel is the highlighter that marks the one word each claim turns on. The page moves from block to block (blush, bordeaux, caramel band, white, blush, sage, white, caramel, white, ink) so each section reads as a new poster, not as a continuation of the last.\n\nDensity is low and loud. Headlines run at poster scale (up to 6rem) with line-height under 1, body copy stays in a calm humanist sans at reading size, and the gap between the two is the point: the statement shouts, the explanation talks. Colour does the structuring; there is almost no ornament beyond hairline rules, numbered tiles and the marker sweep.\n\nThe world refuses the pastel coach template (script headline, blush everywhere, three equal soft cards) and the earlier café-slate vocabulary (chalk handwriting, Polaroids, dotted price leaders). The direction was pinned by the client with comcassie.fr as a reference, not a template; the palette stays the brand's own.",
+    "overview": "The site speaks like a confident consultant's poster: short uppercase statements set big and tight, laid on whole blocks of colour rather than on soft cards. Since the 13/10/2026 revision (client feedback: « bien mais utilise la DA d'origine », colours only) every colour comes from the brand's live site v2m-secretaire.fr and its logo; nothing is derived. Vieux rose, the logo lettering and the live site's hero wash, is the signature field (hero panel, slogan band); ink, the live site's text colour, is the strong field (Instagram offer, featured quote, Beacons close, announcement bar); blush is the light field; caramel is the highlighter. The page moves from block to block (blush with a vieux rose panel, ink, caramel band, white, blush, sage, white, vieux rose band, white with an ink panel, rose-text footer) so each section reads as a new poster.\n\nDensity is low and loud. Headlines run at poster scale (up to 6rem) with line-height under 1, body copy stays in a calm humanist sans at reading size, and the gap between the two is the point: the statement shouts, the explanation talks. Colour does the structuring; there is almost no ornament beyond hairline rules, numbered tiles and the marker sweep.\n\nThe world refuses the pastel coach template (script headline, blush everywhere, three equal soft cards) and the earlier café-slate vocabulary (chalk handwriting, Polaroids, dotted price leaders). The direction was pinned by the client with comcassie.fr as a reference for structure; the palette is the brand's own, exactly.",
     "keyCharacteristics": [
-      "Whole colour blocks per section; bordeaux is the dominant field, blush the light field.",
+      "Whole colour blocks per section; vieux rose and ink are the strong fields, blush the light field.",
       "Bricolage Grotesque 800 uppercase statements at poster scale, tight leading (0.88 to 0.92).",
-      "One highlighted word per heading: a caramel marker bar swept in once, or the word set in caramel ink on bordeaux.",
+      "One highlighted word per heading: a caramel marker bar swept in once (blush marker on sage and vieux rose), or the word set in accent ink (ink on vieux rose, caramel on ink).",
       "Strikethrough-then-replace headlines (a struck word in rose text, the replacement highlighted).",
-      "Large rounded colour panels (28px) against near-square buttons (6px).",
+      "Large rounded colour panels (28px) against near-square buttons (6px); the live site's blush button with a white border as the secondary action.",
       "Violet is action only.",
-      "A tone-on-tone ghost word behind the hero and a scrolling band of true facts."
+      "A white tone-on-tone ghost word behind the hero and a scrolling band of true facts."
     ],
     "rules": [
       {
         "name": "The Violet Acts Rule",
-        "body": "Violet appears only on things you can press or focus: buttons, the mobile nav hover, focus rings. Never on a heading, a fill or a decoration. On bordeaux the action inverts to a white button with a violet label.",
+        "body": "Violet appears only on things you can press or focus: buttons, the mobile nav hover, focus rings. Never on a heading, a fill or a decoration.",
         "section": "colors"
       },
       {
         "name": "The Ground Variable Rule",
-        "body": "Components never hard-code their colour; they read the ground variables (`--bg`, `--fg`, `--fg-dim`, `--head`, `--accent`, `--line`, `--focus`). A light ground maps them to blush / ink-strong / ink / bordeaux / rose-text / violet; a bordeaux field remaps them to bordeaux / blush / blush-dim / blush / caramel / caramel. A new section changes ground by remapping, not by restyling its children.",
+        "body": "Components never hard-code their colour; they read the ground variables (`--bg`, `--fg`, `--fg-dim`, `--head`, `--accent`, `--line`, `--focus`). A light ground maps them to blush / ink / ink / rose-text / rose-text / violet; the ink field (`.field`) to ink / blush / blush / white / caramel / caramel; the hero panel to rose / white / white / white / ink / ink; the footer (`.field--rosewood`) to rose-text with blush text and white headings.",
         "section": "colors"
       },
       {
-        "name": "The Logo Rose Is Not Ink Rule",
-        "body": "Vieux rose (#b78a7d) fails as text on every light ground; use Rose Text (#7a5045) wherever the rose voice must be read.",
+        "name": "The Large-Only Rule",
+        "body": "Vieux rose fields carry only large text (white display, ink accent line); every small text inside the hero sits on the white date ticket, and the secondary action is the blush soft button, not a link. Caramel on ink is for large accents only.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Derived Hue Rule",
+        "body": "Only the nine palette values exist as colours. Hairlines are palette colours at low alpha; nothing else is mixed.",
         "section": "colors"
       },
       {
@@ -427,7 +357,7 @@
       },
       {
         "name": "The One Marked Word Rule",
-        "body": "Each headline carries at most one emphasised word: a caramel marker bar (0.32em tall at 88% of the line, swept in once on entry) on light and caramel grounds, or the word set in caramel ink on bordeaux. Inside the caramel slogan band the marker turns blush.",
+        "body": "Each headline carries at most one emphasised word: a caramel marker bar (0.32em tall at 88% of the line, swept in once on entry) on blush and white, a blush marker on sage and in the vieux rose slogan band (where the word turns ink), or the word set in accent ink (ink on the vieux rose hero, caramel on ink).",
         "section": "typography"
       },
       {
@@ -437,9 +367,9 @@
       }
     ],
     "dos": [
-      "Do give each section a whole ground (blush, bordeaux, white, sage, caramel or ink-strong) and alternate them so neighbours contrast.",
+      "Do give each section a whole ground (blush, vieux rose, ink, white, sage, caramel or rose text) and alternate them so neighbours contrast.",
       "Do state claims in uppercase Bricolage Grotesque 800 with leading of 0.88 to 0.92 and mark exactly one word with the caramel marker or caramel ink.",
-      "Do switch grounds by remapping the ground variables; on bordeaux and ink fields use blush text, blush-dim secondary text (6.50 on bordeaux) and caramel accents (5.65).",
+      "Do switch grounds by remapping the ground variables; on ink use blush body (7.11), white headings (9.32) and caramel only for large accents (4.24); on vieux rose use white or ink at large size only.",
       "Do keep violet on actions only: violet button on light grounds, white button with violet label on dark fields.",
       "Do use Rose Text (#7a5045) for any rose-coloured text; keep Vieux Rose (#b78a7d) for rings and ornament.",
       "Do mark unfinished content visibly with the caramel placeholder chip and a dashed underline or border.",
@@ -449,7 +379,8 @@
       "Don't set the pastel coach template: script headlines, blush on every section, three equal soft cards.",
       "Don't bring back the café-slate vocabulary: chalk handwriting, Polaroid frames, dotted price leaders.",
       "Don't use violet for headings, fills or decoration.",
-      "Don't set Vieux Rose (#b78a7d) or Ghost Blush (#e9c8c2) as readable text.",
+      "Don't set Vieux Rose (#b78a7d) as readable text, or small text on a vieux rose field.",
+      "Don't invent a tint or shade (no bordeaux, no dimmed blush, no darker ink): pick another palette pair.",
       "Don't separate content with shadows; use a ground change or a hairline.",
       "Don't mark more than one word per headline.",
       "Don't extend sage beyond the reviews band."
